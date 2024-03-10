@@ -1,5 +1,5 @@
 # Japanese AMR Corpus
-AMR annotation of Japanese sentences in Tatoeba parallel corpus
+AMR annotation of Japanese sentences in Tatoeba parallel corpus. 
 
 
 # About
@@ -16,7 +16,7 @@ Banarescu, L., Bonial, C., Cai, S., Georgescu, M., Griffitt, K., Hermjakob, U., 
 Oral, K. E., Acar, A., & Eryigit, G. (2022). Abstract Meaning Representation of Turkish. Natural Language Engineering, 1(1), 1. https://doi.org/10.1017/S1351324921000401
 
 
-Koichi Takeuchi, Kentaro Inui, Nao Takeuchi and Atsushi Fujita, A Thesaurus of Predicate-Argument Structure for Japanese Verbs to Deal with Granularity of Verb Meanings, The 8th Workshop on Asian Language Resources, pages 1-8, Beijing, 21th (21-22) August 2010.
+Koichi Takeuchi, Kentaro Inui, Nao Takeuchi and Atsushi Fujita, A Thesaurus of Predicate-Argument Structure for Japanese Verbs to Deal with Granularity of Verb Meanings, The 8th Workshop on Asian Language Resources, pages 1-8, Beijing, 21th (21-22) August 2010. https://aclanthology.org/W10-3201 
 
 
 # Licence Information
