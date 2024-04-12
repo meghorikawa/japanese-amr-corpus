@@ -2,7 +2,7 @@
 This is the python script run to compile the parallel corpus
 of english and japanese from the HuggingFace tatoeba dataset.
 
-Citataion:
+Citation:
 
 J. Tiedemann, 2012, Parallel Data, Tools and Interfaces in OPUS.
 In Proceedings of the 8th International Conference on Language
