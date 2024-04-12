@@ -1,0 +1,22 @@
+# ::id ja:000 ::date 04/12/2024
+# ::snt 何かしてみましょう。
+# ::gls Let's try something
+(た/試す-8730
+    :mode imperative
+    :ARG0 (x/私たち)
+    :ARG1 (s/何か))
+
+# ::id ja:001 ::date 04/12/2024
+# ::snt 私は眠らなければなりません。
+# ::gls I have to go to sleep.
+(o/ obligate-01
+    :ARG2 (ね/眠る-527:4885
+        :ARG1 (わ/私)))
+
+# ::id ja:002 ::date 4/12/2024
+# ::snt そろそろ寝なくちゃ。
+# ::gls I have to go to sleep.
+(o/ obligate-01
+    :ARG2 (ね/寝る-527:4886
+        :ARG1 (x/私)
+        :time (そ/そろそろ)))
