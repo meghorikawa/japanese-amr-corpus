@@ -83,8 +83,23 @@
     :ARG1(NULL/私)
     :time(s/すぐ))
 
-# ::id ja:009 ::date 4/18/2024
+# ::id ja:010 ::date 4/18/2024
 # ::snt すぐ戻ってきます。
+# ::gls I will be back soon.
+(m/戻る-17:617
+    :ARG1(NULL/私)
+    :time(s/すぐ))
+
+# ::id ja:011 ::date 4/18/2024
+# ::snt すぐに戻るよ。
+# ::gls I will be back soon.
+(m/戻る-17:617
+    :ARG1(NULL/私)
+    :time(s/すぐ)
+    :mode informative)
+
+# ::id ja:012 ::date 4/18/2024
+# ::snt すぐ戻る。
 # ::gls I will be back soon.
 (m/戻る-17:617
     :ARG1(NULL/私)
