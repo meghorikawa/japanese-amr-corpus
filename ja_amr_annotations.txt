@@ -15,8 +15,77 @@
 
 # ::id ja:002 ::date 4/12/2024
 # ::snt そろそろ寝なくちゃ。
-# ::gls I have to go to sleep.
+# ::gls I have to go to sleep soon.
 (o/ obligate-01
     :ARG2 (ね/寝る-527:4886
         :ARG1 (x/私)
         :time (そ/そろそろ)))
+
+# ::id ja:003 ::date 4/18/2024
+# ::snt 今日は６月１８日で、ムーリエルの誕生日です！
+# ::gls Today is June 18th and it is Muiriel's birthday!
+(d/ で
+    :op1 (k/今日
+        :month 6
+        :day 18)
+    :op2 (t/誕生日
+        :poss(p/person
+            :name (n/name
+                :op1 ムーリエル))))
+
+# ::id ja:004 ::date 4/18/2024
+# ::snt ムーリエルは２０歳になりました。
+# ::gls Muiriel is 20 now  (more accurately: Muiriel turned 20 years old.)
+(n/なる-407:22176
+    :ARG1 (p/person
+        :name(n/name
+            :op1 ムーリエル))
+    :ARG2 (t/ temporal-quantity
+        :quant 20
+        :unit(y/year)))
+
+# ::id ja:005 ::date 4/18/2024
+# ::snt 今、ムーリイエルは２０歳だ。
+# ::gls Muiriel is 20 now.
+(a/age-01
+    :ARG1 (p/person
+        :name(n/name
+            :op1 ムーリエル))
+    :ARG2 (t/ temporal-quantity
+        :quant 20
+        :unit (y/year))
+    :time (n2/ now))
+
+# ::id ja:006 ::date 4/18/2024
+# ::snt パスワードは「Muiriel」です。
+# ::gls The password is "Muiriel".
+(m/ Muiriel
+    :domain(p/ password))
+
+# ::id ja:007 ::date 4/18/2024
+# ::snt すぐに戻ります。
+# ::gls I will be back soon.
+(m/戻る-17:617
+    :ARG1(NULL/私)
+    :time(s/すぐ))
+
+# ::id ja:008 ::date 4/18/2024
+# ::snt まもなく私は戻って来ます。
+# ::gls I will be back soon.
+(m/戻る-17:617
+    :ARG1(w/私)
+    :time(s/まもなく))
+
+# ::id ja:009 ::date 4/18/2024
+# ::snt すぐ戻ります。
+# ::gls I will be back soon.
+(m/戻る-17:617
+    :ARG1(NULL/私)
+    :time(s/すぐ))
+
+# ::id ja:009 ::date 4/18/2024
+# ::snt すぐ戻ってきます。
+# ::gls I will be back soon.
+(m/戻る-17:617
+    :ARG1(NULL/私)
+    :time(s/すぐ))
