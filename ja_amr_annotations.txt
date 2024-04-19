@@ -132,3 +132,10 @@
     :ARG0(w/私)
     :ARG1(k/言葉))
 
+# ::id ja:016 ::date 4/19/2024
+# ::snt きりがない。
+# ::gls This is never going to end.
+(a/ある-529:14258
+    :polarity -
+    :ARG1(k/きり))
+
