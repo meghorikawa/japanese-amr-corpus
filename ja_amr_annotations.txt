@@ -1,7 +1,10 @@
+＃FrameID : ID
+
+
 # ::id ja:000 ::date 04/12/2024
 # ::snt 何かしてみましょう。
 # ::gls Let's try something
-(た/試す-8730
+(た/試す-450:8730
     :mode imperative
     :ARG0 (x/私たち)
     :ARG1 (s/何か))
@@ -104,3 +107,28 @@
 (m/戻る-17:617
     :ARG1(NULL/私)
     :time(s/すぐ))
+
+# ::id ja:013 ::date 4/19/2024
+# ::snt 何と言ったら良いか分かりません。
+# ::gls I'm at a loss for words.
+(w/分かる-647:11319
+    :polarity -
+    :ARG0(NULL/私)
+    :ARG1(n/何
+        :ARG1-of(y/良い)
+        :ARG4-of(i/言う-95:14421))
+
+# ::id ja:014 ::date 4/19/2024
+# ::snt 私は言葉に詰まった。
+# ::gls I'm at a loss for words.
+(t/詰まる-373:7597
+    :ARG1(w/私)
+    :ARG2(k/言葉))
+
+# ::id ja:015 ::date 4/19/2024
+# ::snt 私は言葉を失った。
+# ::gls I'm at a loss for words.
+(u/失う-572:10541
+    :ARG0(w/私)
+    :ARG1(k/言葉))
+
