@@ -197,5 +197,42 @@
         :location (s/世界
             :mod(k/この))))
 
-24,君は僕より有利な立場にあるものね。,You're in better shape than I am.
-25,君は僕の邪魔をしている。,You are in my way.
+# ::id ja:024 ::date 4/24/2024
+# ::snt 君は僕より有利な立場にあるものね。
+# ::gls You're in a better position than I am.*
+(h/have-degree-91
+        :ARG1(k/君)
+        :ARG2(t/立場)
+        :ARG3(y/有利)
+        :ARG4(b/僕))
+
+# ::id ja:025 ::date 4/24/2024
+# ::snt 君は僕の邪魔をしている。
+# ::gls You are in my way.
+(j/邪魔する-10639:579
+    :ARG0(k/君)
+    :ARG1(b/僕))
+
+# ::id ja:026 ::date 4/24/2024
+# ::snt あなたは私の邪魔をしています。
+# ::gls You are in my way.
+(j/邪魔する-10639:579
+    :ARG0(a/あなた)
+    :ARG1(w/私))
+
+# ::id ja:027 ::date 4/24/2024
+# ::snt きみにちょっとしたものをもってきたよ。
+# ::gls I brought you a little something.
+(k/買う-1918:71
+    :ARG0(NULL/私)
+    :ARG1(m/もの
+        :ARG1-of(c/ちょっとした))
+    :ARG4(k/きみ))
+
+# ::id ja:028 ::date 4/24/2024
+# ::snt ３０ユーロになります。
+# ::gls This will cost €30.
+(c/３０ユーロ)
+
+29,私は一日に100ユーロ稼ぎます。,I make €100 a day.
+30,すぐに諦めて昼寝をするかも知れない。,I may give up soon and just nap instead.
