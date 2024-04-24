@@ -139,3 +139,63 @@
     :polarity -
     :ARG1(k/きり))
 
+# ::id ja:017 ::date 4/22/2024
+# ::snt 何と言ったらいいか・・・。
+# ::gls I just don't know what to say.
+(w/分かる-647:11319
+    :polarity -
+    :ARG0(NULL/私)
+    :ARG1(n/何
+        :ARG1-of(y/良い)
+        :ARG4-of(i/言う-95:14421))
+
+# ::id ja:018 ::date 4/22/2024
+# ::snt 何とも言いようがないなあ。
+# ::gls I just don't know what to say.
+(w/分かる-647:11319
+    :polarity -
+    :ARG0(NULL/私)
+    :ARG1(n/何
+        :ARG1-of(y/良い)
+        :ARG4-of(i/言う-95:14421))
+
+# ::id ja:019 ::date 4/22/2024
+# ::snt こいつは悪いウサギだった。
+# ::gls That was an evil bunny.
+(u/ウサギ
+    :mod(k/こいつ)
+    :ARG1-of (w/悪い))
+
+# ::id ja:020 ::date 4/22/2024
+# ::snt 私は山にいました。
+# ::gls I was in the mountains.
+(i/行く-646:17
+    :ARG0(w/私)
+    :ARG2(y/山))
+
+# ::id ja:021 ::date 4/22/2024
+# ::snt それは最近の写真？。
+# ::gls Is it a recent picture?
+(s/写真
+    :mod(s/最近)
+    :polarity(a/amr-unknown))
+
+# ::id ja:022 ::date 4/22/2024
+# ::snt 時間があるか分かりません。
+# ::gls I don't know if I have the time.
+(w/分かる-647:11319
+    :polarity -
+    :ARG0(NULL/私)
+    :ARG1(j/時間))
+
+# ::id ja:023 ::date 4/22/2024
+# ::snt この世界の教育にはがっかりしてしまう。
+# ::gls Education in this world disappoints me.
+(g/がっかりする-5072:339
+    :ARG1(NULL/私)
+    :ARG0(k/教育-01
+        :location (s/世界
+            :mod(k/この))))
+
+24,君は僕より有利な立場にあるものね。,You're in better shape than I am.
+25,君は僕の邪魔をしている。,You are in my way.
