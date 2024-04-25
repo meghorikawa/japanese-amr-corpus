@@ -229,10 +229,48 @@
         :ARG1-of(c/ちょっとした))
     :ARG4(k/きみ))
 
-# ::id ja:028 ::date 4/24/2024
+# ::id ja:028 ::date 4/25/2024
 # ::snt ３０ユーロになります。
 # ::gls This will cost €30.
-(c/３０ユーロ)
+(c/ cost-01
+    :ARG1(NULL/これ)
+    :ARG2(q/monetary-quantity
+        :quant 30
+        :unit(e/euro))
 
-29,私は一日に100ユーロ稼ぎます。,I make €100 a day.
-30,すぐに諦めて昼寝をするかも知れない。,I may give up soon and just nap instead.
+# ::id ja:029 ::date 4/25/2024
+# ::snt 私は一日に100ユーロ稼ぎます。
+# ::gls I make €100 a day.
+(m/儲ける-2339:78
+    :ARG0(w/私)
+    :ARG1(r/rate-entity-91
+        :ARG1(q/monetary-quantity
+            :quant 100
+            :unit(e/euro))
+        :ARG2(t/temporal-quantity
+            :quant 1
+            :unit(d/day))))
+
+# ::id ja:030 ::date 4/25/2024
+# ::snt すぐに諦めて昼寝をするかも知れない。
+# ::gls I may give up soon and just nap instead.**
+(p/possible-01
+    :ARG1(a/and
+        :op1(a/諦める-5888:262
+            :ARG0(NULL/私)
+            :time (s/すぐ))
+        :op2(h/昼寝する-9904:527
+            :ARG0(NULL/私))))
+
+# ::id ja:031 ::date 4/25/2024
+# ::snt それはあなたが一人になりたくないからです。
+# ::gls It's because you don't want to be alone.
+
+
+32,そんなことは起きないでしょう。,That won't happen.
+33,彼は時々変です。,Sometimes he can be a strange guy.
+34,あなたの勉強を邪魔しないようにします。,I'll do my best not to disturb your studying.
+35,みんなもそうなのかな、と思うことくらいしかできない。,I can only wonder if this is the same for everyone else.
+36,長い目で見れば違ってくると思います。,I suppose it's different when you think about it over the long term.
+37,会えなくて淋しい。,I miss you.
+38,君がいなくて寂しいよ。,I miss you.
