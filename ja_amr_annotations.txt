@@ -258,6 +258,7 @@
     :ARG1(a/and
         :op1(a/諦める-5888:262
             :ARG0(NULL/私)
+            :ARG1(x/xx)
             :time (s/すぐ))
         :op2(h/昼寝する-9904:527
             :ARG0(NULL/私))))
@@ -265,12 +266,52 @@
 # ::id ja:031 ::date 4/25/2024
 # ::snt それはあなたが一人になりたくないからです。
 # ::gls It's because you don't want to be alone.
+(c/cause-01
+    :ARG0(w/want
+        :polarity -
+        :ARG0(a/あなた)
+        :ARG1(h/一人))
+    :ARG1(s/それ))
 
+# ::id ja:032 ::date 4/25/2024
+# ::snt そんなことは起きないでしょう
+# ::gls That won't happen.
+(o/起きる-3161:124
+    :ARG1(k/こと
+        :mod(s/その))
+    :polarity -)
 
-32,そんなことは起きないでしょう。,That won't happen.
-33,彼は時々変です。,Sometimes he can be a strange guy.
-34,あなたの勉強を邪魔しないようにします。,I'll do my best not to disturb your studying.
-35,みんなもそうなのかな、と思うことくらいしかできない。,I can only wonder if this is the same for everyone else.
+# ::id ja:033 ::date 4/25/2024
+# ::snt 彼は時々変です。
+# ::gls Sometimes he can be a strange guy.**
+(p/possible -01
+    :ARG1(h/変
+        :domain (k/彼)
+    :time (t/時々)))
+
+# ::id ja:034 ::date 4/25/2024
+# ::snt あなたの勉強を邪魔しないようにします
+# ::gls I'll do my best not to disturb your studying.** I'll try not to disturb your studying.
+(d/努力する-10381:
+    :ARG0 (NULL/私)
+    :ARG2 (j/邪魔する-10639:579
+        :ARG0(NULL)
+        :ARG1(勉強
+            :pos(a/あなた))
+        :polarity - ))
+
+# ::id ja:035 ::date 4/25/2024
+# ::snt みんなもそうなのかな、と思うことくらいしかできない。
+# ::gls I can only wonder if this is the same for everyone, else.
+(p/possible-01
+    :ARG1(o/思う15810:270
+        :ARG0(NULL/私)
+        :ARG2(t/truth-value
+            :polarity-of(on/同じ)
+                :ARG0(m/みんな)
+                :manner(a/amr-unknown)))
+        :mod (s/しか))
+
 36,長い目で見れば違ってくると思います。,I suppose it's different when you think about it over the long term.
 37,会えなくて淋しい。,I miss you.
 38,君がいなくて寂しいよ。,I miss you.
