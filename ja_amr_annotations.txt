@@ -330,7 +330,7 @@
     :polarity -
     :ARG1(a/会う-8308:436
         :ARG0(NULL/私
-            :mod (s/淋しい-18496:989)))
+            :mod (s/淋しい)))
         :ARG2(NULL/あなた)
 
 # ::id ja:038 ::date 4/25/2024
@@ -343,3 +343,23 @@
         :ARG1(k/君))
     :mode informative)
 
+# ::id ja:039 ::date 4/27/2024
+# ::snt あなたがいなくて淋しいです。
+# ::gls I miss you.
+(s/淋しい-18495:989
+    :ARG0(w/私)
+    :cause(i/居る-14766:355
+        :polarity -
+        :ARG1(k/君))
+    :mode informative)
+
+39,あなたがいなくて淋しいです。,I miss you.
+40,明日帰ったら電話します。,I'll call them tomorrow when I come back.
+41,私はいつも不思議な性格の方が好きだった。,I always liked mysterious characters more.
+42,眠った方がいいよ。,You should sleep.
+43,行くよ。,I'm going to go.
+44,あとで行くね。,I'm going to go.
+45,私は彼らにチケットをもう一枚送ってくれるように頼んだ。,I told them to send me another ticket.
+46,君は僕にとてもいらいらしている。,You're so impatient with me.
+47,私はそんな風には生きられない。,I can't live that kind of life.
+48,私は一時期、天体物理学者になりたかった。,I once wanted to be an astrophysicist.
