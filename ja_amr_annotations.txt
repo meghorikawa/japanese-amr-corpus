@@ -325,7 +325,7 @@
 
 # ::id ja:037 ::date 4/25/2024
 # ::snt 会えなくて淋しい
-# ::gls I miss you.
+# ::gls I miss you.**
 (p/possible-01
     :polarity -
     :ARG1(a/会う-8308:436
@@ -392,19 +392,48 @@
 # ::id ja:044 ::date 4/27/2024
 # ::snt あとで行くね。
 # ::gls I'm going to go later.**
+(i/行く-646:17
+    :ARG0(NULL/私)
+    :mode confirmation
+    :time (a/後))
 
 # ::id ja:045 ::date 4/27/2024
 # ::snt 私は彼らにチケットをもう一枚送ってくれるように頼んだ。
 # ::gls I told them to send me another ticket.
+(t/頼む-9148:472
+    :ARG0(w/私)
+    :ARG1(送る-882:17
+        :ARG0(k/彼ら)
+        :ARG1(c/チケット
+            :quant 1枚
+            :mod (m/もう))
+        :ARG2(w))
+    :ARG2(k/彼ら))
 
 # ::id ja:046 ::date 4/27/2024
 # ::snt 君は僕にとてもいらいらしている。
 # ::gls You're so impatient with me.
+(s/する-10324:251
+    :ARG0(k/君)
+    :ARG1(i/いらいら
+    :ARG2(b/僕)
+    :degree(t/とても))）
 
 # ::id ja:047 ::date 4/27/2024
 # ::snt 私はそんな風には生きられない。
 # ::gls I can't live that kind of life.
+(p/possible -01
+    :polarity -
+    :ARG1(i/生きる-14501:533
+        :ARG0(w/私)
+        :ARG3(f/風)
+            :mod (s/その)))
 
 # ::id ja:048 ::date 4/27/2024
 # ::snt 私は一時期、天体物理学者になりたかった。
 # ::gls I once wanted to be an astrophysicist.
+(w/want -01
+    :ARG0(w/私)
+    :ARG1(n/なる-407:22176
+        :ARG1(w)
+        :ARG2(t/天体物理学者)))
