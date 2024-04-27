@@ -1,6 +1,6 @@
 import pandas as pd
 
-date='4/27/2024'
+date='4/28/2024'
 
 
 df = pd.read_csv('tatoeba_en_ja.csv')
@@ -10,7 +10,7 @@ labels = []
 gloss=[]
 
 for index, row in filtered_row.iterrows():
-    label = f"# ::id ja:{row} ::date {date} \n# ::snt {row['ja']}\n# ::gls {row['en']}\n \n"
+    label = f"# ::id ja:{index} ::date {date} \n# ::snt {row['ja']}\n# ::gls {row['en']}\n \n"
     gloss.append(f"{row['en']}\n")
     labels.append(label)
 

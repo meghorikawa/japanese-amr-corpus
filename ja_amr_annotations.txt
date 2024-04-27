@@ -436,3 +436,51 @@
     :ARG1(n/なる-407:22176
         :ARG1(w)
         :ARG2(t/天体物理学者)))
+
+# ::id ja:49 ::date 4/28/2024
+# ::snt 生物学は好きになれません。
+# ::gls I never liked biology.
+
+# ::id ja:50 ::date 4/28/2024
+# ::snt 私は生物学は決して好きではありませんでした。
+# ::gls I never liked biology.
+
+# ::id ja:51 ::date 4/28/2024
+# ::snt 僕が最後に自分の考えを伝えた人は、僕を気違いだと思ったようだ。
+# ::gls The last person I told my idea to thought I was nuts.
+
+# ::id ja:52 ::date 4/28/2024
+# ::snt もし世界が今の形をしていなかったら、私は誰でも信用できうる。
+# ::gls If the world weren't in the shape it is now, I could trust anyone.
+
+# ::id ja:53 ::date 4/28/2024
+# ::snt 残念ながらそれは本当なのです。
+# ::gls It is unfortunately true.
+
+# ::id ja:54 ::date 4/28/2024
+# ::snt 大抵の人は僕を気違いだと思っている。
+# ::gls Most people think I'm crazy.
+
+# ::id ja:55 ::date 4/28/2024
+# ::snt 私は違います。あなたです。
+# ::gls No I'm not; you are!
+
+# ::id ja:56 ::date 4/28/2024
+# ::snt それは私の台詞だよ！
+# ::gls That's MY line!
+
+# ::id ja:57 ::date 4/28/2024
+# ::snt それはこっちの台詞だよ。
+# ::gls That's MY line!
+
+# ::id ja:58 ::date 4/28/2024
+# ::snt 彼は私を蹴っています！
+# ::gls He's kicking me!
+
+# ::id ja:59 ::date 4/28/2024
+# ::snt 本当？
+# ::gls Are you sure?
+
+# ::id ja:60 ::date 4/28/2024
+# ::snt 本気？
+# ::gls Are you sure?
