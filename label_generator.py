@@ -4,7 +4,7 @@ date='4/27/2024'
 
 
 df = pd.read_csv('tatoeba_en_ja.csv')
-filtered_row = df.loc[45:48]
+filtered_row = df.loc[49:60]
 
 labels = []
 gloss=[]
