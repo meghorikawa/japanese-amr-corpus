@@ -350,8 +350,7 @@
     :ARG0(w/私)
     :cause(i/居る-14766:355
         :polarity -
-        :ARG1(k/君))
-    :mode informative)
+        :ARG1(k/君)))
 
 39,あなたがいなくて淋しいです。,I miss you.
 40,明日帰ったら電話します。,I'll call them tomorrow when I come back.
