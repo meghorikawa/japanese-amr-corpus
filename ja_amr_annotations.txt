@@ -352,13 +352,44 @@
         :polarity -
         :ARG1(k/君)))
 
-39,あなたがいなくて淋しいです。,I miss you.
-40,明日帰ったら電話します。,I'll call them tomorrow when I come back.
-41,私はいつも不思議な性格の方が好きだった。,I always liked mysterious characters more.
-42,眠った方がいいよ。,You should sleep.
-43,行くよ。,I'm going to go.
-44,あとで行くね。,I'm going to go.
-45,私は彼らにチケットをもう一枚送ってくれるように頼んだ。,I told them to send me another ticket.
+# ::id ja:040 ::date 4/27/2024
+# ::snt 明日帰ったら電話します。
+# ::gls I'll call them tomorrow when I come back.
+(d/電話する-2934:95
+    :ARG0(NULL/私)
+    :ARG2(NULL2/その人)
+    :condition(k/帰る-527:17
+        :ARG0(NULL)
+        :time(a/明日)))
+
+# ::id ja:041 ::date 4/27/2024
+# ::snt 私はいつも不思議な性格の方が好きだった。
+# ::gls I always liked mysterious characters more.
+(s/好き-19353:536
+    :ARG0(w/私)
+    :ARG1(h/have-degree-91
+        :ARG1(j/人物)
+        :ARG2(sei/性格
+            :mod (f/不思議))
+        :ARG3(h/方)))
+
+# ::id ja:042 ::date 4/27/2024
+# ::snt 眠った方がいいよ。
+# ::gls You should sleep.
+
+# ::id ja:043 ::date 4/27/2024
+# ::snt 行くよ。
+# ::gls I'm going to go.
+
+# ::id ja:044 ::date 4/27/2024
+# ::snt あとで行くね。
+# ::gls I'm going to go later.**
+
+# ::id ja:045 ::date 4/27/2024
+# ::snt 私は彼らにチケットをもう一枚送ってくれるように頼んだ。
+# ::gls I told them to send me another ticket.
+
+
 46,君は僕にとてもいらいらしている。,You're so impatient with me.
 47,私はそんな風には生きられない。,I can't live that kind of life.
 48,私は一時期、天体物理学者になりたかった。,I once wanted to be an astrophysicist.
