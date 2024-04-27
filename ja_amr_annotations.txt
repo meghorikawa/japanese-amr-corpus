@@ -385,7 +385,9 @@
 # ::id ja:043 ::date 4/27/2024
 # ::snt 行くよ。
 # ::gls I'm going to go.
-
+(i/行く-646:17
+    :ARG0(NULL/私)
+    :mode informative)
 
 # ::id ja:044 ::date 4/27/2024
 # ::snt あとで行くね。
