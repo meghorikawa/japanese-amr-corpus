@@ -376,10 +376,16 @@
 # ::id ja:042 ::date 4/27/2024
 # ::snt 眠った方がいいよ。
 # ::gls You should sleep.
+(s/勧める-2132:80
+    :ARG1(眠る-4885:527
+        :ARG1(a/あなた))
+    :ARG2(a)
+    :mode informative)
 
 # ::id ja:043 ::date 4/27/2024
 # ::snt 行くよ。
 # ::gls I'm going to go.
+
 
 # ::id ja:044 ::date 4/27/2024
 # ::snt あとで行くね。
@@ -389,7 +395,14 @@
 # ::snt 私は彼らにチケットをもう一枚送ってくれるように頼んだ。
 # ::gls I told them to send me another ticket.
 
+# ::id ja:046 ::date 4/27/2024
+# ::snt 君は僕にとてもいらいらしている。
+# ::gls You're so impatient with me.
 
-46,君は僕にとてもいらいらしている。,You're so impatient with me.
-47,私はそんな風には生きられない。,I can't live that kind of life.
-48,私は一時期、天体物理学者になりたかった。,I once wanted to be an astrophysicist.
+# ::id ja:047 ::date 4/27/2024
+# ::snt 私はそんな風には生きられない。
+# ::gls I can't live that kind of life.
+
+# ::id ja:048 ::date 4/27/2024
+# ::snt 私は一時期、天体物理学者になりたかった。
+# ::gls I once wanted to be an astrophysicist.
