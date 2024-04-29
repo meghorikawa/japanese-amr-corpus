@@ -68,7 +68,7 @@
 # ::snt すぐに戻ります。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(NULL / 私)
+    :ARG1(x / 私)
     :time(s / すぐ))
 
 # ::id ja:008 ::date 4/18/2024
@@ -82,21 +82,21 @@
 # ::snt すぐ戻ります。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(NULL / 私)
+    :ARG1(x / 私)
     :time(s / すぐ))
 
 # ::id ja:010 ::date 4/18/2024
 # ::snt すぐ戻ってきます。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(NULL / 私)
+    :ARG1(x / 私)
     :time(s / すぐ))
 
 # ::id ja:011 ::date 4/18/2024
 # ::snt すぐに戻るよ。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(NULL / 私)
+    :ARG1(x / 私)
     :time(s / すぐ)
     :mode informative)
 
@@ -104,7 +104,7 @@
 # ::snt すぐ戻る。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(NULL / 私)
+    :ARG1(x / 私)
     :time(s / すぐ))
 
 # ::id ja:013 ::date 4/19/2024
@@ -112,7 +112,7 @@
 # ::gls I'm at a loss for words.
 (w / 分かる-647:11319
     :polarity -
-    :ARG0(NULL / 私)
+    :ARG0(x / 私)
     :ARG1(n / 何
         :ARG1-of(y / 良い)
         :ARG4-of(i / 言う-95:14421))
@@ -143,7 +143,7 @@
 # ::gls I just don't know what to say.
 (w / 分かる-647:11319
     :polarity -
-    :ARG0(NULL / 私)
+    :ARG0(x / 私)
     :ARG1(n / 何
         :ARG1-of(y / 良い)
         :ARG4-of(i / 言う-95:14421))
@@ -153,7 +153,7 @@
 # ::gls I just don't know what to say.
 (w / 分かる-647:11319
     :polarity -
-    :ARG0(NULL / 私)
+    :ARG0(x / 私)
     :ARG1(n / 何
         :ARG1-of(y / 良い)
         :ARG4-of(i / 言う-95:14421))
@@ -184,14 +184,14 @@
 # ::gls I don't know if I have the time.
 (w / 分かる-647:11319
     :polarity -
-    :ARG0(NULL / 私)
+    :ARG0(x / 私)
     :ARG1(j / 時間))
 
 # ::id ja:023 ::date 4/22/2024
 # ::snt この世界の教育にはがっかりしてしまう。
 # ::gls Education in this world disappoints me.
 (g / がっかりする-339:5072
-    :ARG1(NULL / 私)
+    :ARG1(x / 私)
     :ARG0(k / 教育-01
         :location (s / 世界
             :mod(k / この))))
@@ -223,7 +223,7 @@
 # ::snt きみにちょっとしたものをもってきたよ。
 # ::gls I brought you a little something.
 (k / 買う-71:1918
-    :ARG0(NULL / 私)
+    :ARG0(x / 私)
     :ARG1(m / もの
         :ARG1-of(c / ちょっとした))
     :ARG4(k / きみ))
@@ -232,7 +232,7 @@
 # ::snt ３０ユーロになります。
 # ::gls This will cost €30.
 (c / cost-01
-    :ARG1(NULL / これ)
+    :ARG1(x / これ)
     :ARG2(q / monetary-quantity
         :quant 30
         :unit(e / euro))
@@ -256,10 +256,10 @@
 (p / possible-01
     :ARG1(a / and
         :op1(a / 諦める-262:5888
-            :ARG0(NULL / 私)
+            :ARG0(x / 私)
             :time (s / すぐ))
         :op2(h / 昼寝する-527:9904
-            :ARG0(NULL / 私))))
+            :ARG0(x / 私))))
 
 # ::id ja:031 ::date 4/25/2024
 # ::snt それはあなたが一人になりたくないからです。
@@ -291,9 +291,9 @@
 # ::snt あなたの勉強を邪魔しないようにします
 # ::gls I'll do my best not to disturb your studying.** I'll try not to disturb your studying.
 (d / 努力する-555:10381
-    :ARG0 (NULL / 私)
+    :ARG0 (x / 私)
     :ARG2 (j / 邪魔する-579:10639
-        :ARG0(NULL)
+        :ARG0(x)
         :ARG1(勉強
             :pos(a / あなた))
         :polarity - ))
@@ -303,7 +303,7 @@
 # ::gls I can only wonder if this is the same for everyone, else.
 (p / possible-01
     :ARG1(o / 思う 270:15810
-        :ARG0(NULL / 私)
+        :ARG0(x / 私)
         :ARG2(t / truth-value
             :polarity-of(on / 同じ)
                 :ARG0(m / みんな)
@@ -314,7 +314,7 @@
 # ::snt 長い目で見れば違ってくると思います。
 # ::gls I suppose it's different when you think about it over the long term.
 (o / 思う 270:15810
-    :ARG0(NULL / 私)
+    :ARG0(x / 私)
     :ARG2(c / 違う-3:36
         :ARG1(n / それ)
     :time(t / time
@@ -327,9 +327,9 @@
 (p / possible-01
     :polarity -
     :ARG1(a / 会う- 436:8308
-        :ARG0(NULL / 私
+        :ARG0(x / 私
             :mod (s / 淋しい)))
-        :ARG2(NULL / あなた)
+        :ARG2(x / あなた)
 
 # ::id ja:038 ::date 4/25/2024
 # ::snt 君がいなくて寂しいよ。
@@ -354,10 +354,10 @@
 # ::snt 明日帰ったら電話します。
 # ::gls I'll call them tomorrow when I come back.
 (d / 電話する- 95:2934
-    :ARG0(NULL / 私)
-    :ARG2(NULL2 / その人)
+    :ARG0(x / 私)
+    :ARG2(x2 / その人)
     :condition(k / 帰る- 17:527
-        :ARG0(NULL)
+        :ARG0(x)
         :time(a / 明日)))
 
 # ::id ja:041 ::date 4/27/2024
@@ -384,14 +384,14 @@
 # ::snt 行くよ。
 # ::gls I'm going to go.
 (i / 行く- 17:646
-    :ARG0(NULL / 私)
+    :ARG0(x / 私)
     :mode informative)
 
 # ::id ja:044 ::date 4/27/2024
 # ::snt あとで行くね。
 # ::gls I'm going to go later.**
 (i / 行く- 17:646
-    :ARG0(NULL / 私)
+    :ARG0(x / 私)
     :mode confirmation
     :time (a / 後))
 
