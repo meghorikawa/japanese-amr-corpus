@@ -31,27 +31,27 @@
         :month 6
         :day 18)
     :op2 (t / 誕生日
-        :poss(p / person
+        :poss (p / person
             :name (n / name
                 :op1 ムーリエル))))
 
 # ::id ja:004 ::date 4/18/2024
 # ::snt ムーリエルは２０歳になりました。
 # ::gls Muiriel is 20 now  (more accurately: Muiriel turned 20 years old.)
-(n / なる-407:22176
+(n / なる-407:22173
     :ARG1 (p / person
-        :name(n / name
+        :naなるme(n / name
             :op1 ムーリエル))
     :ARG2 (t / temporal-quantity
         :quant 20
-        :unit(y / year)))
+        :unit (y / year)))
 
 # ::id ja:005 ::date 4/18/2024
 # ::snt 今、ムーリイエルは２０歳だ。
 # ::gls Muiriel is 20 now.
 (a / age-01
     :ARG1 (p / person
-        :name(n / name
+        :name (n / name
             :op1 ムーリエル))
     :ARG2 (t / temporal-quantity
         :quant 20
@@ -62,204 +62,204 @@
 # ::snt パスワードは「Muiriel」です。
 # ::gls The password is "Muiriel".
 (m / Muiriel
-    :domain(p / password))
+    :domain (p / password))
 
 # ::id ja:007 ::date 4/18/2024
 # ::snt すぐに戻ります。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(x / 私)
-    :time(s / すぐ))
+    :ARG1 (x / 私)
+    :time (s / すぐ))
 
 # ::id ja:008 ::date 4/18/2024
 # ::snt まもなく私は戻って来ます。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(w / 私)
-    :time(s / まもなく))
+    :ARG1 (w / 私)
+    :time (s / まもなく))
 
 # ::id ja:009 ::date 4/18/2024
 # ::snt すぐ戻ります。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(x / 私)
-    :time(s / すぐ))
+    :ARG1 (x / 私)
+    :time (s / すぐ))
 
 # ::id ja:010 ::date 4/18/2024
 # ::snt すぐ戻ってきます。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(x / 私)
-    :time(s / すぐ))
+    :ARG1 (x / 私)
+    :time (s / すぐ))
 
 # ::id ja:011 ::date 4/18/2024
 # ::snt すぐに戻るよ。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(x / 私)
-    :time(s / すぐ)
+    :ARG1 (x / 私)
+    :time (s / すぐ)
     :mode informative)
 
 # ::id ja:012 ::date 4/18/2024
 # ::snt すぐ戻る。
 # ::gls I will be back soon.
 (m / 戻る-17:617
-    :ARG1(x / 私)
-    :time(s / すぐ))
+    :ARG1 (x / 私)
+    :time (s / すぐ))
 
 # ::id ja:013 ::date 4/19/2024
 # ::snt 何と言ったら良いか分かりません。
 # ::gls I'm at a loss for words.
 (w / 分かる-647:11319
     :polarity -
-    :ARG0(x / 私)
-    :ARG1(n / 何
-        :ARG1-of(y / 良い)
-        :ARG4-of(i / 言う-95:14421))
+    :ARG0 (x / 私)
+    :ARG1 (n / 何
+        :ARG1-of (y / 良い)
+        :ARG4-of (i / 言う-95:14421))
 
 # ::id ja:014 ::date 4/19/2024
 # ::snt 私は言葉に詰まった。
 # ::gls I'm at a loss for words.
 (t / 詰まる-373:7597
-    :ARG1(w / 私)
-    :ARG2(k / 言葉))
+    :ARG1 (w / 私)
+    :ARG2 (k / 言葉))
 
 # ::id ja:015 ::date 4/19/2024
 # ::snt 私は言葉を失った。
 # ::gls I'm at a loss for words.
 (u / 失う-572:10541
-    :ARG0(w / 私)
-    :ARG1(k / 言葉))
+    :ARG0 (w / 私)
+    :ARG1 (k / 言葉))
 
 # ::id ja:016 ::date 4/19/2024
 # ::snt きりがない。
 # ::gls This is never going to end.
 (a / ある-529:14258
     :polarity -
-    :ARG1(k / きり))
+    :ARG1 (k / きり))
 
 # ::id ja:017 ::date 4/22/2024
 # ::snt 何と言ったらいいか・・・。
 # ::gls I just don't know what to say.
 (w / 分かる-647:11319
     :polarity -
-    :ARG0(x / 私)
-    :ARG1(n / 何
-        :ARG1-of(y / 良い)
-        :ARG4-of(i / 言う-95:14421))
+    :ARG0 (x / 私)
+    :ARG1 (n / 何
+        :ARG1-of (y / 良い)
+        :ARG4-of (i / 言う-95:14421))
 
 # ::id ja:018 ::date 4/22/2024
 # ::snt 何とも言いようがないなあ。
 # ::gls I just don't know what to say.
 (w / 分かる-647:11319
     :polarity -
-    :ARG0(x / 私)
-    :ARG1(n / 何
-        :ARG1-of(y / 良い)
-        :ARG4-of(i / 言う-95:14421))
+    :ARG0 (x / 私)
+    :ARG1 (n / 何
+        :ARG1-of (y / 良い)
+        :ARG4-of (i / 言う-95:14421))
 
 # ::id ja:019 ::date 4/22/2024
 # ::snt こいつは悪いウサギだった。
 # ::gls That was an evil bunny.
 (u / ウサギ
-    :mod(k / こいつ)
+    :mod (k / こいつ)
     :ARG1-of (w / 悪い))
 
 # ::id ja:020 ::date 4/22/2024
 # ::snt 私は山にいました。
 # ::gls I was in the mountains.
 (i / 行く-17:646
-    :ARG0(w / 私)
-    :ARG2(y / 山))
+    :ARG0 (w / 私)
+    :ARG2 (y / 山))
 
 # ::id ja:021 ::date 4/22/2024
 # ::snt それは最近の写真？
 # ::gls Is it a recent picture?
 (s / 写真
-    :mod(s / 最近)
-    :polarity(a / amr-unknown))
+    :mod (s / 最近)
+    :polarity (a / amr-unknown))
 
 # ::id ja:022 ::date 4/22/2024
 # ::snt 時間があるか分かりません。
 # ::gls I don't know if I have the time.
 (w / 分かる-647:11319
     :polarity -
-    :ARG0(x / 私)
-    :ARG1(j / 時間))
+    :ARG0 (x / 私)
+    :ARG1 (j / 時間))
 
 # ::id ja:023 ::date 4/22/2024
 # ::snt この世界の教育にはがっかりしてしまう。
 # ::gls Education in this world disappoints me.
 (g / がっかりする-339:5072
-    :ARG1(x / 私)
-    :ARG0(k / 教育-01
+    :ARG1 (x / 私)
+    :ARG0 (k / 教育-01
         :location (s / 世界
-            :mod(k / この))))
+            :mod (k / この))))
 
 # ::id ja:024 ::date 4/24/2024
 # ::snt 君は僕より有利な立場にあるものね。
 # ::gls You're in a better position than I am.*
 (h / have-degree-91
-        :ARG1(k / 君)
-        :ARG2(t / 立場)
-        :ARG3(y / 有利)
-        :ARG4(b / 僕))
+        :ARG1 (k / 君)
+        :ARG2 (t / 立場)
+        :ARG3 (y / 有利)
+        :ARG4 (b / 僕))
 
 # ::id ja:025 ::date 4/24/2024
 # ::snt 君は僕の邪魔をしている。
 # ::gls You are in my way.
 (j / 邪魔する-579:10639
-    :ARG0(k / 君)
-    :ARG1(b / 僕))
+    :ARG0 (k / 君)
+    :ARG1 (b / 僕))
 
 # ::id ja:026 ::date 4/24/2024
 # ::snt あなたは私の邪魔をしています。
 # ::gls You are in my way.
 (j / 邪魔する-579:10639
-    :ARG0(a / あなた)
-    :ARG1(w / 私))
+    :ARG0 (a / あなた)
+    :ARG1 (w / 私))
 
 # ::id ja:027 ::date 4/24/2024
 # ::snt きみにちょっとしたものをもってきたよ。
 # ::gls I brought you a little something.
 (k / 買う-71:1918
-    :ARG0(x / 私)
-    :ARG1(m / もの
-        :ARG1-of(c / ちょっとした))
-    :ARG4(k / きみ))
+    :ARG0 (x / 私)
+    :ARG1 (m / もの
+        :ARG1-of (c / ちょっとした))
+    :ARG4 (k / きみ))
 
 # ::id ja:028 ::date 4/25/2024
 # ::snt ３０ユーロになります。
 # ::gls This will cost €30.
 (c / cost-01
-    :ARG1(x / これ)
-    :ARG2(q / monetary-quantity
+    :ARG1 (x / これ)
+    :ARG2 (q / monetary-quantity
         :quant 30
-        :unit(e / euro))
+        :unit (e / euro))
 
 # ::id ja:029 ::date 4/25/2024
 # ::snt 私は一日に100ユーロ稼ぎます。
 # ::gls I make €100 a day.
 (m / 儲ける-78:2339
-    :ARG0(w / 私)
-    :ARG1(r / rate-entity-91
-        :ARG1(q / monetary-quantity
+    :ARG0 (w / 私)
+    :ARG1 (r / rate-entity-91
+        :ARG1 (q / monetary-quantity
             :quant 100
-            :unit(e / euro))
-        :ARG2(t / temporal-quantity
+            :unit (e / euro))
+        :ARG2 (t / temporal-quantity
             :quant 1
-            :unit(d / day))))
+            :unit (d / day))))
 
 # ::id ja:030 ::date 4/25/2024
 # ::snt すぐに諦めて昼寝をするかも知れない。
 # ::gls I may give up soon and just nap instead.**
 (p / possible-01
-    :ARG1(a / and
+    :ARG1 (a / and
         :op1(a / 諦める-262:5888
-            :ARG0(x / 私)
+            :ARG0 (x / 私)
             :time (s / すぐ))
-        :op2(h / 昼寝する-527:9904
-            :ARG0(x / 私))))
+        :op2 (h / 昼寝する-527:9904
+            :ARG0 (x / 私))))
 
 # ::id ja:031 ::date 4/25/2024
 # ::snt それはあなたが一人になりたくないからです。
@@ -267,23 +267,23 @@
 (c / cause-01
     :ARG0(w / want
         :polarity -
-        :ARG0(a / あなた)
-        :ARG1(h / 一人))
+        :ARG0 (a / あなた)
+        :ARG1 (h / 一人))
     :ARG1(s / それ))
 
 # ::id ja:032 ::date 4/25/2024
 # ::snt そんなことは起きないでしょう
 # ::gls That won't happen.
 (o / 起きる-124:3161
-    :ARG1(k / こと
-        :mod(s / その))
+    :ARG1 (k / こと
+        :mod (s / その))
     :polarity -)
 
 # ::id ja:033 ::date 4/25/2024
 # ::snt 彼は時々変です。
 # ::gls Sometimes he can be a strange guy.**
 (p / possible -01
-    :ARG1(h / 変
+    :ARG1 (h / 変
         :domain (k / 彼)
     :time (t / 時々)))
 
@@ -293,8 +293,8 @@
 (d / 努力する-555:10381
     :ARG0 (x / 私)
     :ARG2 (j / 邪魔する-579:10639
-        :ARG0(x)
-        :ARG1(勉強
+        :ARG0 (x)
+        :ARG1 (勉強
             :pos(a / あなた))
         :polarity - ))
 
@@ -303,22 +303,22 @@
 # ::gls I can only wonder if this is the same for everyone, else.
 (p / possible-01
     :ARG1(o / 思う 270:15810
-        :ARG0(x / 私)
-        :ARG2(t / truth-value
+        :ARG0 (x / 私)
+        :ARG2 (t / truth-value
             :polarity-of(on / 同じ)
-                :ARG0(m / みんな)
-                :manner(a / amr-unknown)))
+                :ARG0 (m / みんな)
+                :manner (a / amr-unknown)))
         :mod (s / しか))
 
 # ::id ja:036 ::date 4/25/2024
 # ::snt 長い目で見れば違ってくると思います。
 # ::gls I suppose it's different when you think about it over the long term.
 (o / 思う 270:15810
-    :ARG0(x / 私)
-    :ARG2(c / 違う-3:36
-        :ARG1(n / それ)
-    :time(t / time
-        :quant(d / duration
+    :ARG0 (x / 私)
+    :ARG2 (c / 違う-3:36
+        :ARG1 (n / それ)
+    :time (t / time
+        :quant (d / duration
         :mod (n / 長い)))))
 
 # ::id ja:037 ::date 4/25/2024
@@ -326,72 +326,72 @@
 # ::gls I miss you.**
 (p / possible-01
     :polarity -
-    :ARG1(a / 会う- 436:8308
-        :ARG0(x / 私
+    :ARG1 (a / 会う- 436:8308
+        :ARG0 (x / 私
             :mod (s / 淋しい)))
-        :ARG2(x / あなた)
+        :ARG2 (x / あなた)
 
 # ::id ja:038 ::date 4/25/2024
 # ::snt 君がいなくて寂しいよ。
 # ::gls I miss you.
 (s / 寂しい- 989:18496
-    :ARG0(w / 私)
-    :cause(i / 居る- 355:14766
+    :ARG0 (w / 私)
+    :cause (i / 居る- 355:14766
         :polarity -
-        :ARG1(k / 君))
+        :ARG1 (k / 君))
     :mode informative)
 
 # ::id ja:039 ::date 4/27/2024
 # ::snt あなたがいなくて淋しいです。
 # ::gls I miss you.
 (s / 淋しい- 989:18495
-    :ARG0(w / 私)
-    :cause(i / 居る- 355:14766
+    :ARG0 (w / 私)
+    :cause (i / 居る- 355:14766
         :polarity -
-        :ARG1(k / 君)))
+        :ARG1 (k / 君)))
 
 # ::id ja:040 ::date 4/27/2024
 # ::snt 明日帰ったら電話します。
 # ::gls I'll call them tomorrow when I come back.
 (d / 電話する- 95:2934
-    :ARG0(x / 私)
-    :ARG2(x2 / その人)
+    :ARG0 (x / 私)
+    :ARG2 (x2 / その人)
     :condition(k / 帰る- 17:527
-        :ARG0(x)
-        :time(a / 明日)))
+        :ARG0 (x)
+        :time (a / 明日)))
 
 # ::id ja:041 ::date 4/27/2024
 # ::snt 私はいつも不思議な性格の方が好きだった。
 # ::gls I always liked mysterious characters more.
 (s / 好き- 536:19353
-    :ARG0(w / 私)
-    :ARG1(h / have-degree-91
-        :ARG1(j / 人物)
-        :ARG2(sei / 性格
+    :ARG0 (w / 私)
+    :ARG1 (h / have-degree-91
+        :ARG1 (j / 人物)
+        :ARG2 (sei / 性格
             :mod (f / 不思議))
-        :ARG3(h / 方)))
+        :ARG3 (h / 方)))
 
 # ::id ja:042 ::date 4/27/2024
 # ::snt 眠った方がいいよ。
 # ::gls You should sleep.
 (s / 勧める- 80:2132
-    :ARG1(眠る- 527-4885
-        :ARG1(a / あなた))
-    :ARG2(a)
+    :ARG1 (眠る- 527-4885
+        :ARG1 (a / あなた))
+    :ARG2 (a)
     :mode informative)
 
 # ::id ja:043 ::date 4/27/2024
 # ::snt 行くよ。
 # ::gls I'm going to go.
 (i / 行く- 17:646
-    :ARG0(x / 私)
+    :ARG0 (x / 私)
     :mode informative)
 
 # ::id ja:044 ::date 4/27/2024
 # ::snt あとで行くね。
 # ::gls I'm going to go later.**
 (i / 行く- 17:646
-    :ARG0(x / 私)
+    :ARG0 (x / 私)
     :mode confirmation
     :time (a / 後))
 
@@ -401,20 +401,20 @@
 (t / 頼む- 472:9148
     :ARG0(w / 私)
     :ARG1(送る- 17:882
-        :ARG0(k / 彼ら)
-        :ARG1(c / チケット
+        :ARG0 (k / 彼ら)
+        :ARG1 (c / チケット
             :quant 1枚
             :mod (m / もう))
-        :ARG2(w))
-    :ARG2(k / 彼ら))
+        :ARG2 (w))
+    :ARG2 (k / 彼ら))
 
 # ::id ja:046 ::date 4/27/2024
 # ::snt 君は僕にとてもいらいらしている。
 # ::gls You're so impatient with me.
 (s / する- 251:10324
-    :ARG0(k / 君)
-    :ARG1(i / いらいら
-    :ARG2(b / 僕)
+    :ARG0 (k / 君)
+    :ARG1 (i / いらいら
+    :ARG2 (b / 僕)
     :degree(t / とても))）
 
 # ::id ja:047 ::date 4/27/2024
@@ -423,8 +423,8 @@
 (p / possible -01
     :polarity -
     :ARG1(i / 生きる- 533:14501
-        :ARG0(w / 私)
-        :ARG3(f / 風)
+        :ARG0 (w / 私)
+        :ARG3 (f / 風)
             :mod (s / その)))
 
 # ::id ja:048 ::date 4/27/2024
@@ -432,54 +432,82 @@
 # ::gls I once wanted to be an astrophysicist.
 (w / want -01
     :ARG0(w / 私)
-    :ARG1(n / なる-407:22176
+    :ARG1(n / 成る-407:22176
         :ARG1(w)
         :ARG2(t / 天体物理学者)))
 
-# ::id ja:49 ::date 4/28/2024
+# ::id ja:49 ::date 5/01/2024
 # ::snt 生物学は好きになれません。
 # ::gls I never liked biology.**
+(n / 成る-407:22173
+    :polarity -
+    :ARG1 (x / 私)
+    :ARG2 (s / 好き- 536:19353
+        :ARG0( x )
+        :ARG1( b / 生物)
 
-# ::id ja:50 ::date 4/28/2024
+# ::id ja:50 ::date 5/01/2024
 # ::snt 私は生物学は決して好きではありませんでした。
 # ::gls I never liked biology.
+(s / 好き- 536:19353
+    :polarity -
+    :ARG0(w / 私)
+    :ARG1(b / 生物)
+    :time(k / 決して))
 
-# ::id ja:51 ::date 4/28/2024
+# ::id ja:51 ::date 5/01/2024
 # ::snt 僕が最後に自分の考えを伝えた人は、僕を気違いだと思ったようだ。
 # ::gls The last person I told my idea to thought I was nuts.
+( o / 思う - 268:15812
+    :ARG0 (h / 人
+        :ARG2-of ( t / 伝え　- 95:2882
+            :ARG0(b / 僕 )
+            :ARG1 (k / 考え
+                :poss b)))
+        :mod (s / 最後)
+    :ARG3 (k / 気違い
+        :domain b))
 
-# ::id ja:52 ::date 4/28/2024
+# ::id ja:52 ::date 5/01/2024
 # ::snt もし世界が今の形をしていなかったら、私は誰でも信用できうる。
 # ::gls If the world weren't in the shape it is now, I could trust anyone.
+(p / possible -01
+    :ARG1 (s / 信用　- 268:5967
+        :ARG0 (w / 私)
+        :ARG1 (d / 誰でも))
+    :condition (k / 形
+        :polarity -
+        :ARG0-of (s / 世界)
+        :time (i / 今)))
 
-# ::id ja:53 ::date 4/28/2024
+# ::id ja:53 ::date 5/01/2024
 # ::snt 残念ながらそれは本当なのです。
 # ::gls It is unfortunately true.
 
-# ::id ja:54 ::date 4/28/2024
+# ::id ja:54 ::date 5/01/2024
 # ::snt 大抵の人は僕を気違いだと思っている。
 # ::gls Most people think I'm crazy.
 
-# ::id ja:55 ::date 4/28/2024
+# ::id ja:55 ::date 5/01/2024
 # ::snt 私は違います。あなたです。
 # ::gls No I'm not; you are!
 
-# ::id ja:56 ::date 4/28/2024
+# ::id ja:56 ::date 5/01/2024
 # ::snt それは私の台詞だよ！
 # ::gls That's MY line!
 
-# ::id ja:57 ::date 4/28/2024
+# ::id ja:57 ::date 5/01/2024
 # ::snt それはこっちの台詞だよ。
 # ::gls That's MY line!
 
-# ::id ja:58 ::date 4/28/2024
+# ::id ja:58 ::date 5/01/2024
 # ::snt 彼は私を蹴っています！
 # ::gls He's kicking me!
 
-# ::id ja:59 ::date 4/28/2024
+# ::id ja:59 ::date 5/01/2024
 # ::snt 本当？
 # ::gls Are you sure?
 
-# ::id ja:60 ::date 4/28/2024
+# ::id ja:60 ::date 5/01/2024
 # ::snt 本気？
 # ::gls Are you sure?
