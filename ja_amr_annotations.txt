@@ -466,7 +466,7 @@
                 :poss b)))
         :mod (s / 最後)
     :ARG3 (k / 気違い
-        :domain b))
+        :ARG1 (b)))
 
 # ::id ja:52 ::date 5/01/2024
 # ::snt もし世界が今の形をしていなかったら、私は誰でも信用できうる。
@@ -483,31 +483,63 @@
 # ::id ja:53 ::date 5/01/2024
 # ::snt 残念ながらそれは本当なのです。
 # ::gls It is unfortunately true.
+(h / 本当
+    :ARG1 (s / それ)
+    :ARG2-of (z / 残念))
 
 # ::id ja:54 ::date 5/01/2024
 # ::snt 大抵の人は僕を気違いだと思っている。
 # ::gls Most people think I'm crazy.
+( o / 思う - 268:15812
+    :ARG0 (h / 人
+        :mod - (d / 大抵))
+    :ARG3 (k / 気違い
+        :ARG1 (b / 僕)))
 
 # ::id ja:55 ::date 5/01/2024
 # ::snt 私は違います。あなたです。
 # ::gls No I'm not; you are!
+(c / contrast-01
+    :ARG1 (h / have-polarity-91
+        :ARG1 (w / 私
+        :polarity - ))
+    :ARG2 (h / have polarity-91
+        :ARG1 (a / あなた
+        :polarity + )))
 
 # ::id ja:56 ::date 5/01/2024
 # ::snt それは私の台詞だよ！
 # ::gls That's MY line!
+(s / 台詞
+    :poss (w / 私)
+    :mod (s / それ)
+    :mode informative)
 
 # ::id ja:57 ::date 5/01/2024
 # ::snt それはこっちの台詞だよ。
 # ::gls That's MY line!
+(s / 台詞
+    :poss (w / 私)
+    :mod (s / それ)
+    :mode informative)
 
 # ::id ja:58 ::date 5/01/2024
 # ::snt 彼は私を蹴っています！
 # ::gls He's kicking me!
+(k / 蹴る - 17:991
+    :ARG0 (k / 彼)
+    :ARG1 (w / 私))
 
 # ::id ja:59 ::date 5/01/2024
 # ::snt 本当？
 # ::gls Are you sure?
+(h / 本当 - 949:24644
+    :polarity (a / amr-unknown)
+    :ARG1 (x / あなた)
 
 # ::id ja:60 ::date 5/01/2024
 # ::snt 本気？
 # ::gls Are you sure?
+(h / 本当 - 949:24644
+    :polarity (a / amr-unknown)
+    :ARG1 (x / あなた)
