@@ -543,3 +543,44 @@
 (h / 本当 - 949:24644
     :polarity (a / amr-unknown)
     :ARG1 (x / あなた)
+
+# ::id ja:61 ::date 5/02/2024
+# ::snt そうしたらひとつ問題があって・・・。
+# ::gls Then there is a problem...
+
+# ::id ja:62 ::date 5/02/2024
+# ::snt あ！蝶々がいる！
+# ::gls Oh, there's a butterfly!
+
+# ::id ja:63 ::date 5/02/2024
+# ::snt あ、蝶々がいる。
+# ::gls Oh, there's a butterfly!
+
+# ::id ja:64 ::date 5/02/2024
+# ::snt あっ、ちょうちょだ！
+# ::gls Oh, there's a butterfly!
+
+# ::id ja:65 ::date 5/02/2024
+# ::snt 急いで！
+# ::gls Hurry up.
+
+# ::id ja:66 ::date 5/02/2024
+# ::snt 急ぎなさい。
+# ::gls Hurry up.
+
+# ::id ja:67 ::date 5/02/2024
+# ::snt さあ、急いで。
+# ::gls Hurry up.
+
+# ::id ja:68 ::date 5/02/2024
+# ::snt 早く！
+# ::gls Hurry up.
+
+# ::id ja:69 ::date 5/02/2024
+# ::snt 急げ！
+# ::gls Hurry up.
+
+# ::id ja:70 ::date 5/02/2024
+# ::snt 驚くことではないね。
+# ::gls It doesn't surprise me.
+
