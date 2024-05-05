@@ -655,7 +655,7 @@
 # ::id ja:75 ::date 5/03/2024
 # ::snt こんな馬鹿なことは言ったことが無い。
 # ::gls That's the stupidest thing I've ever said. **
-(i / 言う-95:14421
+(i / 言う - 95:14421
     :polarity -
     :ARG0 (x / 私)
     :ARG4 (k / こと
@@ -669,11 +669,11 @@
 (h / 欲しい-520:24546
     :ARG0 (x / 私)
     :ARG1 (c / contrast
-        :ARG1 (n / 成る-407:22176
+        :ARG1 (n / 成る - 407:22176
             :polarity -
             :ARG1(x)
             :ARG2(n / のろま))
-        :ARG2 ((n / 成る-407:22176
+        :ARG2 ((n / 成る - 407:22176
             :ARG1(x)
             :ARG2(k / かっこ良い)))))
 
@@ -683,12 +683,12 @@
 (h / 欲しい-520:24546
     :ARG0 (x / 私)
     :ARG1 (c / contrast
-        :ARG1 (n / 成る-407:22176
+        :ARG1 (n / 成る - 407:22176
             :polarity -
             :ARG1(x)
             :ARG2(y / 奴
                 :mod (d / ダサい)))
-        :ARG2 ((n / 成る-407:22176
+        :ARG2 ((n / 成る - 407:22176
             :ARG1(x)
             :ARG2(k / かっこ良い)))))
 
@@ -697,10 +697,10 @@
 # ::gls When I grow up, I want to be a king.
 (h / 欲しい-520:24546
     :ARG0 (x / 私)
-    :ARG1 (n / 成る-407:22176
+    :ARG1 (n / 成る - 407:22176
         :ARG1 (x)
         :ARG2 (o / 多様)
-        :condition (n / 成る-407:22176
+        :condition (n / 成る - 407:22176
             :ARG1 (x)
             :ARG2 (ok / 大きい))))
 
@@ -710,18 +710,82 @@
 (a / アメリカ
     :ARG1-of (h / have-degree-91
         :ARG3 (i / 一番)
-        :condition (h2 / 欲しい- 520:24546
+        :condition (h2 / 欲しい - 520:24546
             :ARG0 (x / あなた)
-            :ARG1 (k /稼ぐ-78:2360
+            :ARG1 (k /稼ぐ - 78:2360
                 :ARG0 (x)
                 :ARG1 (o / お金))))
 
 # ::id ja:80 ::date 5/03/2024
 # ::snt 僕はすごく太ってる。
 # ::gls I'm so fat.
-(f / 太る-201:4781
+(f / 太る - 201:4781
     :ARG1 (b / 僕)
     :degree (s / すごい))
+
+# ::id ja:81 ::date 5/05/2024
+# ::snt だから何？
+# ::gls So what?
+(i / infer-01
+    (a / amr-unknown))
+
+# ::id ja:82 ::date 5/05/2024
+# ::snt だから何なの？
+# ::gls So what?
+(i / infer-01
+    (a / amr-unknown))
+
+# ::id ja:83 ::date 5/05/2024
+# ::snt こらしめてやる。
+# ::gls I'm gonna shoot him.
+(k / 懲らしめる - 157:18224
+    :ARG0 (x /　私)
+    :ARG1 (x1 / かれ))
+
+# ::id ja:84 ::date 5/05/2024
+# ::snt 俺は彼を射殺してやる。
+# ::gls I'm gonna shoot him.
+(s / 射殺する - 136:3732
+    :ARG0 (o /　俺)
+    :ARG1 (k / 彼))
+
+# ::id ja:85 ::date 5/05/2024
+# ::snt あいつを撃つ。
+# ::gls I'm gonna shoot him.
+(u / 撃つ - 56:8572
+    :ARG0 (o /　俺)
+    :ARG1 (k / 彼))
+
+# ::id ja:86 ::date 5/05/2024
+# ::snt 言ってみただけだよ！
+# ::gls I'm just saying!**
+(た / 試す-450:8730
+    :ARG0 (x / 私)
+    :ARG1 (i / 言う　- 95:14421
+        :ARG0 (x))
+    :mod (d / だけ)
+    :mode informative)
+
+# ::id ja:87 ::date 5/05/2024
+# ::snt それで彼らの気が変わったのかも知れない。
+# ::gls That was probably what influenced their decision.**
+(k / 可能 - 651:16640
+    :ARG1 (ka / 変わる - 407:7820
+        :ARG1 (ki / 気
+            :poss (k / 彼ら)))
+    :case (s / それ))
+
+# ::id ja:88 ::date 5/05/2024
+# ::snt 兄弟がいるとどんなだろうといつも思う。
+# ::gls I've always wondered what it'd be like to have siblings.
+
+# ::id ja:89 ::date 5/05/2024
+# ::snt 私ならそう言っただろうと思う。
+# ::gls This is what I would have said.
+
+# ::id ja:90 ::date 5/05/2024
+# ::snt いつまでかかっても全部を説明するのは無理だ。
+# ::gls It would take forever for me to explain everything.
 
 
 
