@@ -135,7 +135,7 @@
 # ::snt きりがない。
 # ::gls This is never going to end.
 (a / ある-529:14258
-    :polarity -
+    :polaritあるy -
     :ARG1 (k / きり))
 
 # ::id ja:017 ::date 4/22/2024
@@ -546,41 +546,76 @@
 
 # ::id ja:61 ::date 5/02/2024
 # ::snt そうしたらひとつ問題があって・・・。
-# ::gls Then there is a problem...
+# ::gls Then there is a problem...*
+(a / ある-529:14258
+    :ARG1 (m / 問題
+        :quant 1)
+    :condition (s / そう))
 
 # ::id ja:62 ::date 5/02/2024
 # ::snt あ！蝶々がいる！
 # ::gls Oh, there's a butterfly!
+(c / 蝶々
+    :location (x / あそこ)
+    :mod (a / あ
+        :mode expressive))
 
 # ::id ja:63 ::date 5/02/2024
 # ::snt あ、蝶々がいる。
 # ::gls Oh, there's a butterfly!
+(c / 蝶々
+    :location (x / あそこ)
+    :mod (a / あ
+        :mode expressive))
 
 # ::id ja:64 ::date 5/02/2024
 # ::snt あっ、ちょうちょだ！
 # ::gls Oh, there's a butterfly!
+(c / 蝶々
+    :location (x / あそこ)
+    :mod (a / あっ
+        :mode expressive))
 
 # ::id ja:65 ::date 5/02/2024
 # ::snt 急いで！
 # ::gls Hurry up.
+(i / 急ぐ -14:291
+    :mode imperative
+    :ARG0 (x / あなた))
 
 # ::id ja:66 ::date 5/02/2024
 # ::snt 急ぎなさい。
 # ::gls Hurry up.
+(i / 急ぐ -14:291
+    :mode imperative
+    :ARG0 (x / あなた))
 
 # ::id ja:67 ::date 5/02/2024
 # ::snt さあ、急いで。
 # ::gls Hurry up.
+(i / 急ぐ -14:291
+    :mode imperative
+    :ARG0 (x / あなた))
 
 # ::id ja:68 ::date 5/02/2024
 # ::snt 早く！
 # ::gls Hurry up.
+(i / 急ぐ -14:291
+    :mode imperative
+    :ARG0 (x / あなた))
 
 # ::id ja:69 ::date 5/02/2024
 # ::snt 急げ！
 # ::gls Hurry up.
+(i / 急ぐ -14:291
+    :mode imperative
+    :ARG0 (x / あなた))
 
 # ::id ja:70 ::date 5/02/2024
 # ::snt 驚くことではないね。
 # ::gls It doesn't surprise me.
+(o / 驚く - 398:5000
+    :polarity -
+    :ARG1 (x / 私)
+    :ARG0 (x2 / それ))
 
