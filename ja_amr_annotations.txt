@@ -265,10 +265,12 @@
 # ::snt それはあなたが一人になりたくないからです。
 # ::gls It's because you don't want to be alone.
 (c / cause-01
-    :ARG0(w / want
+    :ARG0(h / 欲しい -1094:26925
         :polarity -
-        :ARG0 (a / あなた)
-        :ARG1 (h / 一人))
+        :ARGE (a / あなた)
+        :ARGM-PRX (n / 成る-407:22176
+            :ARG1 (a)
+            :ARG2 (hi / 一人)))
     :ARG1(s / それ))
 
 # ::id ja:032 ::date 4/25/2024
@@ -413,7 +415,7 @@
 # ::gls You're so impatient with me.
 (s / する- 251:10324
     :ARG0 (k / 君)
-    :ARG1 (i / いらいら
+    :ARG1 (i / いらいら)
     :ARG2 (b / 僕)
     :degree(t / とても))）
 
@@ -618,4 +620,106 @@
     :polarity -
     :ARG1 (x / 私)
     :ARG0 (x2 / それ))
+
+# ::id ja:71 ::date 5/03/2024
+# ::snt 私はなぜか夜の方が元気だ。
+# ::gls For some reason I feel more alive at night.
+(h / have-degree-91
+    :ARG1 (w / 私)
+    :ARG2 (g / 元気)
+    :ARG3 (h / 方)
+    :time (d / date-entity
+        :dayperiod(y / 夜))
+    :cause (n / 何か))
+
+# ::id ja:72 ::date 5/03/2024
+# ::snt それは文脈による。
+# ::gls It depends on the context.
+(y / よる - 440:26201
+    :ARG1 (s / それ)
+    :ARG2 (b / 文脈))
+
+# ::id ja:73 ::date 5/03/2024
+# ::snt 冗談でしょ！？
+# ::gls Are you freaking kidding me?!*
+(j /　冗談
+    :mode expressive)
+
+# ::id ja:74 ::date 5/03/2024
+# ::snt 冗談じゃねえよ。
+# ::gls Are you freaking kidding me?!
+(j / 冗談
+    :polarity -
+    :mode expressive)
+
+# ::id ja:75 ::date 5/03/2024
+# ::snt こんな馬鹿なことは言ったことが無い。
+# ::gls That's the stupidest thing I've ever said. **
+(i / 言う-95:14421
+    :polarity -
+    :ARG0 (x / 私)
+    :ARG4 (k / こと
+        :mod (b / 馬鹿
+            :degree (ko / こんな)
+    :time (e / ever))
+
+# ::id ja:76 ::date 5/03/2024
+# ::snt のろまにはなりたくない。かっこ良くなりたい！！
+# ::gls I don't want to be lame; I want to be cool!!
+(h / 欲しい-520:24546
+    :ARG0 (x / 私)
+    :ARG1 (c / contrast
+        :ARG1 (n / 成る-407:22176
+            :polarity -
+            :ARG1(x)
+            :ARG2(n / のろま))
+        :ARG2 ((n / 成る-407:22176
+            :ARG1(x)
+            :ARG2(k / かっこ良い)))))
+
+# ::id ja:77 ::date 5/03/2024
+# ::snt ダサい奴には、なりたくない。かっこよくなりたい！
+# ::gls I don't want to be lame; I want to be cool!!
+(h / 欲しい-520:24546
+    :ARG0 (x / 私)
+    :ARG1 (c / contrast
+        :ARG1 (n / 成る-407:22176
+            :polarity -
+            :ARG1(x)
+            :ARG2(y / 奴
+                :mod (d / ダサい)))
+        :ARG2 ((n / 成る-407:22176
+            :ARG1(x)
+            :ARG2(k / かっこ良い)))))
+
+# ::id ja:78 ::date 5/03/2024
+# ::snt 大きくなったら王様になりたい。
+# ::gls When I grow up, I want to be a king.
+(h / 欲しい-520:24546
+    :ARG0 (x / 私)
+    :ARG1 (n / 成る-407:22176
+        :ARG1 (x)
+        :ARG2 (o / 多様)
+        :condition (n / 成る-407:22176
+            :ARG1 (x)
+            :ARG2 (ok / 大きい))))
+
+# ::id ja:79 ::date 5/03/2024
+# ::snt お金を稼ぎたいならアメリカが一番だ。
+# ::gls America is a lovely place to be, if you are here to earn money.
+(a / アメリカ
+    :ARG1-of (h / have-degree-91
+        :ARG3 (i / 一番)
+        :condition (h2 / 欲しい- 520:24546
+            :ARG0 (x / あなた)
+            :ARG1 (k /稼ぐ-78:2360
+                :ARG0 (x)
+                :ARG1 (o / お金))))
+
+# ::id ja:80 ::date 5/03/2024
+# ::snt 僕はすごく太ってる。
+# ::gls I'm so fat.
+(f / 太る-201:4781
+    :ARG1 (b / 僕)
+    :degree (s / すごい))
 
