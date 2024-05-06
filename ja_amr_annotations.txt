@@ -754,7 +754,7 @@
 # ::gls I'm gonna shoot him.
 (u / 撃つ - 56:8572
     :ARG0 (o /　俺)
-    :ARG1 (k / 彼))
+    :ARG1 (a / あいつ))
 
 # ::id ja:86 ::date 5/05/2024
 # ::snt 言ってみただけだよ！
