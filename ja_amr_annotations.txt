@@ -778,14 +778,25 @@
 # ::id ja:88 ::date 5/05/2024
 # ::snt 兄弟がいるとどんなだろうといつも思う。
 # ::gls I've always wondered what it'd be like to have siblings.
+(o / 思う-268:15812
+    :ARG0 (x / 私)
+    :ARG3 (d / どんな
+        :ARG1-of (y / 様)
+            :ARG1(iru / 居る-529:26985
+                :ARG0(k / 兄弟)))
+    :time (i / いつも)
 
 # ::id ja:89 ::date 5/05/2024
 # ::snt 私ならそう言っただろうと思う。
 # ::gls This is what I would have said.
+(i / 言う-95:14421
+    :ARG0(w /　私)
+    :ARG4(s / そう)
+    :condition (w))
 
 # ::id ja:90 ::date 5/05/2024
 # ::snt いつまでかかっても全部を説明するのは無理だ。
-# ::gls It would take forever for me to explain everything.
+# ::gls It would take forever for me to explain everything.**
 
 
 
