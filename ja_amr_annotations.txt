@@ -796,11 +796,14 @@
 # ::id ja:90 ::date 5/05/2024
 # ::snt いつまでかかっても全部を説明するのは無理だ。
 # ::gls It would take forever for me to explain everything.**
-(k / 可能 -651:16640
-    :ARG1 (s / 説明-95:2800
+(r / 理解-111:3029
+    :ARG0( a / あなた)
+    :ARG1 (z / 全部)
+    :concession (s / 説明-95:2800
         :ARG0 (x / 私)
-        :ARG1 (z / 全部)
-        :ARG2 (a / あなた)
+        :ARG1 (z)
+        :ARG2 (a)
+        :time (i / いつまで))
     :polarity - ))
 
 
