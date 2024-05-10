@@ -837,15 +837,29 @@
 
 # ::id ja:94 ::date 5/10/2024
 # ::snt それは私が調整しなければいけなかった何かだったんだろう。
-# ::gls It would be something I'd have to program.
+# ::gls It would be something I'd have to program.**
+(n / 何か
+    :domain (m / もの)
+    :ARG1-of (o / obligate
+        :ARG2 (c / 調整-362:7269
+            :ARG0 (w / 私)
+            :ARG1 (m))))
 
 # ::id ja:95 ::date 5/10/2024
 # ::snt 自分勝手にするつもりはない。
 # ::gls I don't intend to be selfish.
+(i / 意図-520:9745
+    :polarity -
+    :ARG0 (w / 私)
+    :ARG1 (k / 勝手-767:16579
+        :ARG0 (w)))
 
 # ::id ja:96 ::date 5/10/2024
 # ::snt 最悪の場合を考えておこう。
 # ::gls Let's consider the worst that could happen.
+(k / 考える
+    :mode imperative
+    )
 
 # ::id ja:97 ::date 5/10/2024
 # ::snt 親友は何人いる？
