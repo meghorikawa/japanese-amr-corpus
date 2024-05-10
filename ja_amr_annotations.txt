@@ -857,13 +857,25 @@
 # ::id ja:96 ::date 5/10/2024
 # ::snt 最悪の場合を考えておこう。
 # ::gls Let's consider the worst that could happen.
-(k / 考える
+(k / 考える-459:8923
     :mode imperative
-    )
+    :ARG0 (x / 私たち)
+    :ARG1 (b / 場合
+        ARG1-of　(h / have-degree-91
+            :ARG2 (a / 悪
+                :ARG1 (s) )
+            :ARG3 (m / 最も))))
 
 # ::id ja:97 ::date 5/10/2024
 # ::snt 親友は何人いる？
 # ::gls How many close friends do you have?
+(i / 居る- 355:14766
+    :ARG0 (x / あなた)
+    :ARG1 (h / 人
+        :ARG1 (x)
+        :ARG 2 (t / 友
+            :ARG1-of(s / 親しい)
+        :quant (a / amr-unknown))))
 
 # ::id ja:98 ::date 5/10/2024
 # ::snt 私は反社会的かもしれないけれど人と話さないわけではない。
