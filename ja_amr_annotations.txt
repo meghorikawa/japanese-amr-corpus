@@ -431,7 +431,7 @@
 # ::id ja:048 ::date 4/27/2024
 # ::snt 私は一時期、天体物理学者になりたかった。
 # ::gls I once wanted to be an astrophysicist.
-(w / want -01
+(h / 欲しい-520:24546
     :ARG0(w / 私)
     :ARG1(n / 成る-407:22176
         :ARG1(w)
@@ -806,4 +806,56 @@
         :time (i / いつまで))
     :polarity - ))
 
+# ::id ja:91 ::date 5/10/2024
+# ::snt あなたが女の子だからよ。
+# ::gls That's because you're a girl.
+(g / 原因-613:11071
+    :ARG0 (o / 女のこ
+        :domain (a / あなた))
+    :mode informative)
+
+# ::id ja:92 ::date 5/10/2024
+# ::snt 時々感情が抑えられないことがある。
+# ::gls Sometimes I can't help showing emotions.
+(k / 可能 - 651:16640
+    (o / 抑える-701:1547
+        :ARG0 (x / 私)
+        :ARG1 (感情))
+        :polarity -
+    :time (t / 時々))
+
+# ::id ja:93 ::date 5/10/2024
+# ::snt これは代わりになるものをみつけたい単語だ。
+# ::gls It's a word I'd like to find a substitute for.
+(h / 欲しい-520:24546
+    :ARG0 (x / 私)
+    :ARG1 (m / みつける-110:3004
+        :ARG0 (x)
+        :ARG1 (m / もの
+            ：ARG2-of (k / 代わり
+                ：ARG1(t / 単語)))))
+
+# ::id ja:94 ::date 5/10/2024
+# ::snt それは私が調整しなければいけなかった何かだったんだろう。
+# ::gls It would be something I'd have to program.
+
+# ::id ja:95 ::date 5/10/2024
+# ::snt 自分勝手にするつもりはない。
+# ::gls I don't intend to be selfish.
+
+# ::id ja:96 ::date 5/10/2024
+# ::snt 最悪の場合を考えておこう。
+# ::gls Let's consider the worst that could happen.
+
+# ::id ja:97 ::date 5/10/2024
+# ::snt 親友は何人いる？
+# ::gls How many close friends do you have?
+
+# ::id ja:98 ::date 5/10/2024
+# ::snt 私は反社会的かもしれないけれど人と話さないわけではない。
+# ::gls I may be antisocial, but it doesn't mean I don't talk to people.
+
+# ::id ja:99 ::date 5/10/2024
+# ::snt 私は非社交的かもしれないけれど人と話さないわけではない。
+# ::gls I may be antisocial, but it doesn't mean I don't talk to people.
 

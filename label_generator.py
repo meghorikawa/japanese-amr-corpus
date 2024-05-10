@@ -1,10 +1,10 @@
 import pandas as pd
 
-date='5/05/2024'
+date='5/10/2024'
 
 
 df = pd.read_csv('tatoeba_en_ja.csv')
-filtered_row = df.loc[81:90]
+filtered_row = df.loc[91:99]
 
 labels = []
 gloss=[]
