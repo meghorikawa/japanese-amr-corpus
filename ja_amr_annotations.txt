@@ -253,7 +253,7 @@
 # ::id ja:030 ::date 4/25/2024
 # ::snt すぐに諦めて昼寝をするかも知れない。
 # ::gls I may give up soon and just nap instead.**
-(p / possible-01
+(k / 可能 -651:16640
     :ARG1 (a / and
         :op1(a / 諦める-262:5888
             :ARG0 (x / 私)
@@ -284,10 +284,9 @@
 # ::id ja:033 ::date 4/25/2024
 # ::snt 彼は時々変です。
 # ::gls Sometimes he can be a strange guy.**
-(p / possible -01
-    :ARG1 (h / 変
-        :domain (k / 彼)
-    :time (t / 時々)))
+(h / 変
+    :ARG1 (k / 彼)
+    :time (t / 時々))
 
 # ::id ja:034 ::date 4/25/2024
 # ::snt あなたの勉強を邪魔しないようにします
@@ -303,7 +302,7 @@
 # ::id ja:035 ::date 4/25/2024
 # ::snt みんなもそうなのかな、と思うことくらいしかできない。
 # ::gls I can only wonder if this is the same for everyone, else.
-(p / possible-01
+(k / 可能 -651:16640
     :ARG1(o / 思う 270:15810
         :ARG0 (x / 私)
         :ARG2 (t / truth-value
@@ -326,12 +325,12 @@
 # ::id ja:037 ::date 4/25/2024
 # ::snt 会えなくて淋しい
 # ::gls I miss you.**
-(p / possible-01
+(k / 可能 -651:16640
     :polarity -
     :ARG1 (a / 会う- 436:8308
         :ARG0 (x / 私
             :mod (s / 淋しい)))
-        :ARG2 (x / あなた)
+        :ARG2 (x / あなた))
 
 # ::id ja:038 ::date 4/25/2024
 # ::snt 君がいなくて寂しいよ。
@@ -422,7 +421,7 @@
 # ::id ja:047 ::date 4/27/2024
 # ::snt 私はそんな風には生きられない。
 # ::gls I can't live that kind of life.
-(p / possible -01
+(k / 可能 -651:16640
     :polarity -
     :ARG1(i / 生きる- 533:14501
         :ARG0 (w / 私)
@@ -473,7 +472,7 @@
 # ::id ja:52 ::date 5/01/2024
 # ::snt もし世界が今の形をしていなかったら、私は誰でも信用できうる。
 # ::gls If the world weren't in the shape it is now, I could trust anyone.
-(p / possible -01
+(k / 可能 -651:16640
     :ARG1 (s / 信用　- 268:5967
         :ARG0 (w / 私)
         :ARG1 (d / 誰でも))
@@ -629,7 +628,7 @@
     :ARG2 (g / 元気)
     :ARG3 (h / 方)
     :time (d / date-entity
-        :dayperiod(y / 夜))
+        :day period(y / 夜))
     :cause (n / 何か))
 
 # ::id ja:72 ::date 5/03/2024
@@ -797,6 +796,11 @@
 # ::id ja:90 ::date 5/05/2024
 # ::snt いつまでかかっても全部を説明するのは無理だ。
 # ::gls It would take forever for me to explain everything.**
-
+(k / 可能 -651:16640
+    :ARG1 (s / 説明-95:2800
+        :ARG0 (x / 私)
+        :ARG1 (z / 全部)
+        :ARG2 (a / あなた)
+    :polarity - ))
 
 
