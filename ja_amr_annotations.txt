@@ -880,8 +880,27 @@
 # ::id ja:98 ::date 5/10/2024
 # ::snt 私は反社会的かもしれないけれど人と話さないわけではない。
 # ::gls I may be antisocial, but it doesn't mean I don't talk to people.
+(c / contrast-01
+    :ARG1(k / 可能 -651:16640
+        :ARG1 (h / 反社会的
+            :domain (w / 私)))
+    :ARG2 (wa / 訳
+        :polarity -
+        :ARG2 (ha / 話す-95:2838
+            :polarity -
+            :ARG0 (w)
+            :ARG2(hi / 人))))
 
 # ::id ja:99 ::date 5/10/2024
 # ::snt 私は非社交的かもしれないけれど人と話さないわけではない。
 # ::gls I may be antisocial, but it doesn't mean I don't talk to people.
-
+(c / contrast-01
+    :ARG1(k / 可能 -651:16640
+        :ARG1 (h / 非社交的
+            :domain (w / 私)))
+    :ARG2 (wa / 訳
+        :polarity -
+        :ARG2 (ha / 話す-95:2838
+            :polarity -
+            :ARG0 (w)
+            :ARG2(hi / 人))))
