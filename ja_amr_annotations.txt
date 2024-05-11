@@ -925,7 +925,12 @@
 
 # ::id ja:102 ::date 5/11/2024
 # ::snt 時間はいくらでも作れる。
-# ::gls One can always find time.
+# ::gls One can always find time.**
+(k / 可能 -651:16640
+    :ARG1 (t / 作る-124:3318
+        :ARG0 (d / だれか)
+        :ARG1 (j / 時間
+            :quant (i / いくら))))
 
 # ::id ja:103 ::date 5/11/2024
 # ::snt 僕は不幸かも知れないけれど自殺はしない。
