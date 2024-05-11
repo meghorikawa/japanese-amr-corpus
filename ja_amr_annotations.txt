@@ -670,10 +670,10 @@
     :ARG1 (c / contrast
         :ARG1 (n / 成る - 407:22176
             :polarity -
-            :ARG1(x)
+            :ARG1 x
             :ARG2(n / のろま))
         :ARG2 ((n / 成る - 407:22176
-            :ARG1(x)
+            :ARG1 x
             :ARG2(k / かっこ良い)))))
 
 # ::id ja:77 ::date 5/03/2024
@@ -684,11 +684,11 @@
     :ARG1 (c / contrast
         :ARG1 (n / 成る - 407:22176
             :polarity -
-            :ARG1(x)
+            :ARG1 x
             :ARG2(y / 奴
                 :mod (d / ダサい)))
         :ARG2 ((n / 成る - 407:22176
-            :ARG1(x)
+            :ARG1 x
             :ARG2(k / かっこ良い)))))
 
 # ::id ja:78 ::date 5/03/2024
@@ -697,10 +697,10 @@
 (h / 欲しい-520:24546
     :ARG0 (x / 私)
     :ARG1 (n / 成る - 407:22176
-        :ARG1 (x)
+        :ARG1 x
         :ARG2 (o / 多様)
         :condition (n / 成る - 407:22176
-            :ARG1 (x)
+            :ARG1 x
             :ARG2 (ok / 大きい))))
 
 # ::id ja:79 ::date 5/03/2024
@@ -712,7 +712,7 @@
         :condition (h2 / 欲しい - 520:24546
             :ARG0 (x / あなた)
             :ARG1 (k /稼ぐ - 78:2360
-                :ARG0 (x)
+                :ARG0 x
                 :ARG1 (o / お金))))
 
 # ::id ja:80 ::date 5/03/2024
@@ -761,7 +761,7 @@
 (た / 試す-450:8730
     :ARG0 (x / 私)
     :ARG1 (i / 言う　- 95:14421
-        :ARG0 (x))
+        :ARG0 x )
     :mod (d / だけ)
     :mode informative)
 
@@ -791,7 +791,7 @@
 (i / 言う-95:14421
     :ARG0(w /　私)
     :ARG4(s / そう)
-    :condition (w))
+    :condition w )
 
 # ::id ja:90 ::date 5/05/2024
 # ::snt いつまでかかっても全部を説明するのは無理だ。
@@ -801,8 +801,8 @@
     :ARG1 (z / 全部)
     :concession (s / 説明-95:2800
         :ARG0 (x / 私)
-        :ARG1 (z)
-        :ARG2 (a)
+        :ARG1 z
+        :ARG2 a
         :time (i / いつまで))
     :polarity - ))
 
@@ -830,7 +830,7 @@
 (h / 欲しい-520:24546
     :ARG0 (x / 私)
     :ARG1 (m / みつける-110:3004
-        :ARG0 (x)
+        :ARG0 x
         :ARG1 (m / もの
             ：ARG2-of (k / 代わり
                 ：ARG1(t / 単語)))))
@@ -843,7 +843,7 @@
     :ARG1-of (o / obligate
         :ARG2 (c / 調整-362:7269
             :ARG0 (w / 私)
-            :ARG1 (m))))
+            :ARG1 m )))
 
 # ::id ja:95 ::date 5/10/2024
 # ::snt 自分勝手にするつもりはない。
@@ -852,7 +852,7 @@
     :polarity -
     :ARG0 (w / 私)
     :ARG1 (k / 勝手-767:16579
-        :ARG0 (w)))
+        :ARG0 w ))
 
 # ::id ja:96 ::date 5/10/2024
 # ::snt 最悪の場合を考えておこう。
@@ -863,7 +863,7 @@
     :ARG1 (b / 場合
         ARG1-of　(h / have-degree-91
             :ARG2 (a / 悪
-                :ARG1 (s) )
+                :ARG1 s )
             :ARG3 (m / 最も))))
 
 # ::id ja:97 ::date 5/10/2024
@@ -872,7 +872,7 @@
 (i / 居る- 355:14766
     :ARG0 (x / あなた)
     :ARG1 (h / 人
-        :ARG1 (x)
+        :ARG1 x
         :ARG 2 (t / 友
             :ARG1-of(s / 親しい)
         :quant (a / amr-unknown))))
@@ -888,7 +888,7 @@
         :polarity -
         :ARG2 (ha / 話す-95:2838
             :polarity -
-            :ARG0 (w)
+            :ARG0 w
             :ARG2(hi / 人))))
 
 # ::id ja:99 ::date 5/10/2024
@@ -902,5 +902,59 @@
         :polarity -
         :ARG2 (ha / 話す-95:2838
             :polarity -
-            :ARG0 (w)
+            :ARG0 w
             :ARG2(hi / 人))))
+
+# ::id ja:100 ::date 5/11/2024
+# ::snt そういうものなんです。
+# ::gls This is always the way it has been.**
+(m / 物事
+    :manner (s / その))
+
+# ::id ja:101 ::date 5/11/2024
+# ::snt 失礼に振舞ったりしないのが一番だと思う。
+# ::gls I think it is best not to be impolite.
+(o / 思う 270:15810
+    :ARG0 (x / 私)
+    :ARG2 (f / 振る舞う-531:9998
+        :polarity -
+        :manner (s / 失礼)
+        :ARG-1 (h / have-degree-91
+            :ARG2 (i / 一番
+                :ARG1 f))))
+
+# ::id ja:102 ::date 5/11/2024
+# ::snt 時間はいくらでも作れる。
+# ::gls One can always find time.
+
+# ::id ja:103 ::date 5/11/2024
+# ::snt 僕は不幸かも知れないけれど自殺はしない。
+# ::gls I'd be unhappy, but I wouldn't kill myself.
+
+# ::id ja:104 ::date 5/11/2024
+# ::snt 高校生の時は毎朝6時に起きていた。
+# ::gls Back in high school, I got up at 6 a.m. every morning.
+
+# ::id ja:105 ::date 5/11/2024
+# ::snt 高校の時、毎朝６時に起きたものだ。
+# ::gls Back in high school, I got up at 6 a.m. every morning.
+
+# ::id ja:106 ::date 5/11/2024
+# ::snt 起きた時私は悲しかった。
+# ::gls When I woke up, I was sad.
+
+# ::id ja:107 ::date 5/11/2024
+# ::snt あれは最後にいくらか説明されたものだ。
+# ::gls That is somewhat explained at the end.
+
+# ::id ja:108 ::date 5/11/2024
+# ::snt あなたは新しいことを勉強したいのだと思った。
+# ::gls I thought you liked to learn new things.
+
+# ::id ja:109 ::date 5/11/2024
+# ::snt 多くの人が日常のことについて文を書く。
+# ::gls Most people write about their daily life.
+
+# ::id ja:110 ::date 5/11/2024
+# ::snt トラング、もしあなたにマシュマロを送れたら、私は送るよ。
+# ::gls If I could send you a marshmallow, Trang, I would.
