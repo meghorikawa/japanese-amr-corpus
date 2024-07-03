@@ -334,7 +334,7 @@
 
 # ::id ja:038 ::date 4/25/2024
 # ::snt 君がいなくて寂しいよ。
-# ::gls I miss you.
+# ::gls I miss you. *
 (s / 寂しい- 989:18496
     :ARG0 (w / 私)
     :cause (i / 居る- 355:14766
@@ -344,7 +344,7 @@
 
 # ::id ja:039 ::date 4/27/2024
 # ::snt あなたがいなくて淋しいです。
-# ::gls I miss you.
+# ::gls I miss you. *
 (s / 淋しい- 989:18495
     :ARG0 (w / 私)
     :cause (i / 居る- 355:14766
@@ -935,31 +935,418 @@
 # ::id ja:103 ::date 5/11/2024
 # ::snt 僕は不幸かも知れないけれど自殺はしない。
 # ::gls I'd be unhappy, but I wouldn't kill myself.
+(s / 幸せ　-834:18626
+    :polarity -
+    :ARG0 (b / ぼく)
+    :concession (j / 自殺 136:3700
+        :polarity -
+        :ARG1 b))
 
 # ::id ja:104 ::date 5/11/2024
 # ::snt 高校生の時は毎朝6時に起きていた。
 # ::gls Back in high school, I got up at 6 a.m. every morning.
+(o / 起きる　-212:4866
+    :ARG1 (w / 私)
+    :time (d / date-entity
+        :frequency (r / rate-entity-91
+            :dayperiod (m / 毎朝)))
+    :time (t / 時
+        :op1 (k/ 高校生)))
 
 # ::id ja:105 ::date 5/11/2024
 # ::snt 高校の時、毎朝６時に起きたものだ。
 # ::gls Back in high school, I got up at 6 a.m. every morning.
+(o / 起きる　-212:4866
+    :ARG1 (w / 私)
+    :time (d / date-entity
+        :frequency (r / rate-entity-91
+            :dayperiod (m / 毎朝)))
+    :time (t / 時
+        :op1 (k/ 高校)))
 
 # ::id ja:106 ::date 5/11/2024
 # ::snt 起きた時私は悲しかった。
 # ::gls When I woke up, I was sad.
+(k / 悲しい　-993:16628
+    ARG1: (w / 私)
+    :time (o / 起きる　212:4866
+        :ARG1( w )))
 
 # ::id ja:107 ::date 5/11/2024
 # ::snt あれは最後にいくらか説明されたものだ。
 # ::gls That is somewhat explained at the end.
+(s / 説明する -95:2800
+    :ARG1 (a / あれ)
+    :time (sa / 最後))
 
 # ::id ja:108 ::date 5/11/2024
 # ::snt あなたは新しいことを勉強したいのだと思った。
 # ::gls I thought you liked to learn new things.
+(o / 思う -268:15812
+    :ARG0 (w / 私)
+    :ARG3 (h / 欲しい -1094:26925
+        :ARGE (a / あなた)
+        :ARGM-PRX (b / 勉強する -464:9045
+            :ARG0 ( a )
+            :ARG1 (k / こと
+                :mod (at /新しい )))))
 
 # ::id ja:109 ::date 5/11/2024
 # ::snt 多くの人が日常のことについて文を書く。
 # ::gls Most people write about their daily life.
+(k / 書く　-124:3359
+    :ARG0 (h / 人
+        :quant (o / 多く))
+    :ARG1 (b / 文
+        :mod (s / 生活)
+            :mod (t / temporal-quantity
+                :unit (n / 日))))
 
 # ::id ja:110 ::date 5/11/2024
 # ::snt トラング、もしあなたにマシュマロを送れたら、私は送るよ。
 # ::gls If I could send you a marshmallow, Trang, I would.
+(o / 送る - 80:2137
+    :ARG0 (w / 私)
+    :ARG1 (m / マシュマロ)
+    :ARG2 (t / トラング)
+    :condition (k / 可能 -651:16640
+        :ARG1 ( o
+            :ARG0 ( w )
+            :ARG1 ( m )
+            :ARG2 ( t ))))
+
+# ::id ja:111 ::date 5/15/2024
+# ::snt それをするためには危険を冒さなければならない。
+# ::gls In order to do that, you have to take risks. *
+(o / obligate-01
+    :ARG1 (a / あなた)
+    :ARG2　(o / 冒す -251:15384
+        :ARG0 ( a )
+        :ARG1(k / 危険))
+    :purpose (s / する -250:10324
+            :ARG1 (so / それ)))
+
+# ::id ja:112 ::date 5/15/2024
+# ::snt 孤独な人は、他人を恐れるから一人なのだ。
+# ::gls Every person who is alone is alone because they are afraid of others.
+(hi / 一人
+    :domain (h / 人
+        :mod (k / 孤独))
+    :cause (o / 恐る- 396:4973
+        :ARG1 ( h )
+        :ARG0 (t / 他人)))
+
+# ::id ja:113 ::date 5/15/2024
+# ::snt なんで聞くの？
+# ::gls Why do you ask?
+(k / 聞く -471:9117
+    :ARG0 (a / あなた)
+    :ARG1-of  (c / cause
+        :ARG0 (amr / amr-unknown)))
+
+# ::id ja:114 ::date 5/15/2024
+# ::snt なぜ聞くの？
+# ::gls Why do you ask?
+(k / 聞く -471:9117
+    :ARG0 (a / あなた)
+    :ARG1-of  (c / cause
+        :ARG0 (amr / amr-unknown)))
+
+# ::id ja:115 ::date 5/15/2024
+# ::snt 私は芸術家ではない。全然向いていない。
+# ::gls I am not an artist. I never had the knack for it.
+(m/ multi-sentence
+    :sent1 (g / 芸術家
+        :polarity -
+        :domain (w / 私))
+    :sent2 (m / 向く　-625:11301
+        :polarity -
+        :ARG1 g
+        :ARG2 w ))
+
+# ::id ja:116 ::date 5/15/2024
+# ::snt もう彼女には言えないよ。そんなに単純なことではなくなってきたからね。
+# ::gls I can't tell her now. It's not that simple anymore.
+(m / multi-sentence
+    :sent1(k / 可能 -651:16640
+        :polarity -
+        :ARG1 (i / 言う - 95:2872
+            :ARG0 (w / 私)
+            :ARG2 (k / 彼女)
+        :mode informative))
+    :sent2　(n / なる-407:22173
+        :ARG2(t / 単純
+            :polarity -
+        :ARG1 (k / こと))))
+
+# ::id ja:117 ::date 5/15/2024
+# ::snt 欲しいものがみつかると、決まって高いものだ。
+# ::gls Whenever I find something I like, it's too expensive.*
+(h / have-degree-91
+    :ARG1(mo / 物
+        :mod (h / 欲しい))
+    :ARG2(t / 高い)
+    :ARG3(s / 過ぎる))
+    :time (mi / 見つける -110:3004
+        :ARG0 (w / 私)
+        :ARG1 (mo))
+
+# ::id ja:118 ::date 5/15/2024
+# ::snt 好きなものが見つけると、高すぎる。
+# ::gls Whenever I find something I like, it's too expensive.
+(h / have-degree-91
+    :ARG1(mo / 物
+        :mod (s / 好き))
+    :ARG2(t / 高い)
+    :ARG3(s / 過ぎる))
+    :time (mi / 見つける -110:3004
+        :ARG0 (w / 私)
+        :ARG1 (mo))
+
+# ::id ja:119 ::date 5/15/2024
+# ::snt どのくらいいたの？
+# ::gls How long did you stay?
+(i / 居る - 355:14766
+    :ARG1 (a / あなた)
+    :duration (amr/ amr-unknown))
+
+# ::id ja:120 ::date 5/15/2024
+# ::snt たぶん彼にしてみれば同じことよ。
+# ::gls Maybe it will be exactly the same for him.
+(k / 可能 -651:16640
+    :ARG1 (o / 同じ - 626:)
+        :domain (k　/ かれ)
+        :ARG2 (k / こと)
+        :mode informative)
+
+# ::id ja:121 ::date 5/20/2024
+# ::snt 潔白であることは美しいことだ。
+# ::gls Innocence is a beautiful thing.
+(u / 美しい - 687:15025
+    :ARG1 (k / 潔白))
+
+# ::id ja:122 ::date 5/20/2024
+# ::snt 人間は決して永遠には生きられないものだ。
+# ::gls Humans were never meant to live forever.
+(k / 可能 - 651:16640
+    :polarity -
+    :ARG1 (i / 生きる - 533:10073
+        :ARG0 (n / 人間)
+        :duration (e / 永遠)))
+
+# ::id ja:123 ::date 5/20/2024
+# ::snt 行き過ぎたものであっても、僕は自分の考えをなくしたくない。
+# ::gls I don't want to lose my ideas, even though some of them are a bit extreme.
+(h / 欲しい-520:24546
+    :ARG0(b / 僕)
+    :ARG1(n / 無くす-89:2503
+        :polarity -
+        :ARG1(b)
+        :ARG2(k / 考え
+            :poss (j / 自分)))
+    :concession (hi / 非常)
+        :domain (k))
+
+# ::id ja:124 ::date 5/20/2024
+# ::snt 私にそれに関する理論をもっていると思う。
+# ::gls I think I have a theory about that.
+(o / 思う - 101:15812
+    :ARG0 (w / 私)
+    :ARG3 (m / もっている -602:11020
+        :ARG0 (w)
+        :ARG1 (r / 理論
+            :domain (s / それ))))
+
+# ::id ja:125 ::date 5/20/2024
+# ::snt それは面白い。
+# ::gls That is intriguing.
+(o / 面白い
+    :domain (s / それ))
+
+# ::id ja:126 ::date 5/20/2024
+# ::snt 自分のかっこ良さをわざと隠すということ？
+# ::gls You are saying you intentionally hide your good looks?
+(k / 隠す - 693:11640
+    :polarity (amr / unknown)
+    :ARG0 (a / あなた)
+    :ARG1 (格好
+        :mod 良い
+        :poss 自分)
+    :ARG1-of(i / 意図 - 520:9745
+        :ARG0 (a)))
+
+# ::id ja:127 ::date 5/20/2024
+# ::snt これらのフォームのアカウントを私はもってません。
+# ::gls I do not have an account in these forums.
+(m / 持つ - 602:11020
+    :polarity -
+    :ARG0(w / 私)
+    :ARG1 (a / アカウント
+        :mod (f / フォーム
+            :mod (k / この))))
+
+# ::id ja:128 ::date 5/20/2024
+# ::snt もし誰かにこの話の要点は何かって尋ねられても私はさっぱりわからないわ。
+# ::gls If anyone was to ask what the point of the story is, I really don't know.
+(w / 分かる - 647:11319
+    :polarity -
+    :ARG0 (w / 私)
+    :ARG1 (y / 要点
+        mod: (h / 話し))
+    :concession (t / 尋ねる - 471:20095
+        :ARG0 (d / 誰か)
+        :ARG1 (y)
+        :ARG2 (w)))
+
+# ::id ja:129 ::date 5/20/2024
+# ::snt それがどこから来たのか分からなかった。
+# ::gls I didn't know where it came from.
+(w / 分かる - 647:11319
+    :polarity -
+    :ARG0 (w / 私)
+    :ARG1 (k /来る - 124:3121
+        :ARG1 (s / それ)
+        :ARG3 (amr/ amr-unknown)))
+
+# ::id ja:130 ::date 5/20/2024
+# ::snt 僕が君と一緒に住んだことは君の人生観に影響を与えたと思う。
+# ::gls I think my living with you has influenced your way of living.
+(o / 思う - 270:13555
+    :ARG0 (b / 僕)
+    :ARG1 (a / 与える - 80:2152
+        :ARG0 (s / 住む - 530:9922
+            :ARG0 (b)
+            :ARG1 (k / 君))
+        :ARG1 (e / 影響)
+        :ARG2 (j / 人生観
+            :poss (k))))
+
+# ::id ja:131 ::date 6/1/2024
+# ::snt これは重要ではない。
+# ::gls This is not important.
+(j / 重要
+    :polarity -
+    :mod これ)
+
+# ::id ja:132 ::date 6/1/2024
+# ::snt 好きにはなれなかった。
+# ::gls I didn't like it.
+(s / 好き - 536:19352
+    :polarity -
+    :ARG0 (w / 私)
+    :ARG1(so / それ))
+
+# ::id ja:133 ::date 6/1/2024
+# ::snt 彼女は、どうしてそんなことが可能なのかと尋ねている。
+# ::gls She's asking how that's possible.
+(t / 尋ねる - 471:20095
+    :ARG0 (k / 彼女)
+    :ARG1 (ka / 可能 -651:16640
+        :ARG1 (s / それ)
+        :manner (a / amr-unknown))
+
+# ::id ja:134 ::date 6/1/2024
+# ::snt 君はただ人生の問題から逃げているだけだよ。
+# ::gls You're just running away from life's problems.
+(n / 逃げる - 576:10616
+    :ARG0 (k / 君)
+    :ARG2(m / 問題
+        :mod (j / 人生))
+    :mod (d / だけ))
+
+# ::id ja:135 ::date 6/1/2024
+# ::snt 歌詞を見てみれば、あまり意味が無いことに気付くでしょう。
+# ::gls If you look at the lyrics, they don't really mean much.
+(k / 気付く - 111:3056
+    :ARG0 (a / あなた)
+    :ARG1 (i / 意味　- 674:11506
+        :polarity -
+        :ARG1 (ka / 歌詞))
+    :condition (m / 見る - 453:8873
+        :ARG1 (ka)))
+
+# ::id ja:136 ::date 6/1/2024
+# ::snt 君の気付いていない問題がある。
+# ::gls There's a problem there that you don't see.
+(m / 問題
+    :mod (k / 気付く -111:3056
+        :polarity -
+        :ARG0 (ki / 君)))
+
+# ::id ja:137 ::date 6/1/2024
+# ::snt できるよ！
+# ::gls You can do it.
+(d / 出来る - 651:11350
+    :ARG0 (a / あなた)
+    :ARG1 (s / それ)
+    :mode informative)
+
+# ::id ja:138 ::date 6/1/2024
+# ::snt 大丈夫、出来ますよ。
+# ::gls You can do it.*
+(d / 出来る - 651:11350
+    :ARG0 (a / あなた)
+    :ARG1 (s / それ)
+    :mode informative)
+
+# ::id ja:139 ::date 6/1/2024
+# ::snt 私の物理の先生は授業をサボっても気にしない。
+# ::gls My physics teacher doesn't care if I skip classes.
+(s / 心配 - 458:8935
+    :polarity -
+    :ARG0 (se / 先生
+        :domain (物理)
+        :mod (w / 私))
+    :condition (sa / サボる - 577:10623
+        :ARG0 (w)
+        :ARG1(j /　授業)))
+
+# ::id ja:140 ::date 6/1/2024
+# ::snt 日本へ行けたらいいのに。
+# ::gls I wish I could go to Japan.
+(h / 欲しい -520:24546
+    :ARG0 (w / 私)
+    :ARG1 (k / 可能 - 651:16640
+        :ARG1 (i / 行く - 17:644
+            :ARG0 ( w )
+            :ARG2 (n / 日本))))
+
+# ::id ja:141 ::date 7/2/2024
+# ::snt 人ごみは大嫌い。
+# ::gls I hate it when there are a lot of people.
+
+# ::id ja:142 ::date 7/2/2024
+# ::snt 私は寝なければなりません。
+# ::gls I have to go to bed.
+
+# ::id ja:143 ::date 7/2/2024
+# ::snt もう寝なくちゃ。
+# ::gls I have to go to bed.
+
+# ::id ja:144 ::date 7/2/2024
+# ::snt 寝ないと！
+# ::gls I have to go to bed.
+
+# ::id ja:145 ::date 7/2/2024
+# ::snt その後私はそこを出るんだけど、鞄を忘れてきたことに気付くんだ。
+# ::gls After that, I left, but then I realized that I forgot my backpack at their house.
+
+# ::id ja:146 ::date 7/2/2024
+# ::snt 今日はもう聞かないよ。
+# ::gls I won't ask you anything else today.
+
+# ::id ja:147 ::date 7/2/2024
+# ::snt 来週には凍るかも知れない。
+# ::gls It may freeze next week.
+
+# ::id ja:148 ::date 7/2/2024
+# ::snt 謝罪はあったにせよ、私はまだ彼に腹を立てている。
+# ::gls Even though he apologized, I'm still furious.
+
+# ::id ja:149 ::date 7/2/2024
+# ::snt 警察はあなたに弾丸をみつけさせるでしょう。
+# ::gls The police will get you to find the bullets.
+
+# ::id ja:150 ::date 7/2/2024
+# ::snt なぜみんなが私のことを気違いだと思うのか、遂に説明してくれてありがとう。
+# ::gls Thanks for having explained to me at last why people take me for an idiot.
