@@ -1313,40 +1313,93 @@
 
 # ::id ja:141 ::date 7/2/2024
 # ::snt 人ごみは大嫌い。
-# ::gls I hate it when there are a lot of people.
+# ::gls I hate it when there are a lot of people.**
+(d/ 大嫌い - 648:19954
+    :ARG0 (w / 私)
+    :ARG1 (h / 人混み))
 
 # ::id ja:142 ::date 7/2/2024
 # ::snt 私は寝なければなりません。
 # ::gls I have to go to bed.
+(g / 義務付ける -478:9271
+    :ARG1 (n/ 寝る - 527:4886
+        :ARG1(w/ 私)))
 
 # ::id ja:143 ::date 7/2/2024
 # ::snt もう寝なくちゃ。
 # ::gls I have to go to bed.
+(g / 義務付ける -478:9271
+    :ARG1 (n/ 寝る - 527:4886
+        :ARG1(w/ 私)))
 
 # ::id ja:144 ::date 7/2/2024
 # ::snt 寝ないと！
 # ::gls I have to go to bed.
+(g / 義務付ける -478:9271
+    :ARG1 (n/ 寝る - 527:4886
+        :ARG1(w/ 私)))
 
 # ::id ja:145 ::date 7/2/2024
 # ::snt その後私はそこを出るんだけど、鞄を忘れてきたことに気付くんだ。
 # ::gls After that, I left, but then I realized that I forgot my backpack at their house.
+(d / 出る - 3:106
+    :ARG0 (w / 私)
+    :ARG2 (s/ そこ)
+    :time (a / あと
+        :mod (s / それ))
+    :concession (k / 気付く - 109:2998
+        :ARG0 (w)
+        :ARG1 (wa / 忘れる -572:10536
+            :ARG0 (w)
+            :ARG1(k / 鞄))))
 
 # ::id ja:146 ::date 7/2/2024
 # ::snt 今日はもう聞かないよ。
 # ::gls I won't ask you anything else today.
+(k / 聞く - 471:9117
+    :polarity -
+    :ARG0(w / 私)
+    :ARG1 (n / 何も)
+    :ARG2 (a / あなた)
+    :time (kyo / 今日))
 
 # ::id ja:147 ::date 7/2/2024
 # ::snt 来週には凍るかも知れない。
 # ::gls It may freeze next week.
+(k/ 可能 - 651:16640
+    :ARG1 (ko / 凍る -302:6502
+        :time (r / 来週)))
 
 # ::id ja:148 ::date 7/2/2024
 # ::snt 謝罪はあったにせよ、私はまだ彼に腹を立てている。
 # ::gls Even though he apologized, I'm still furious.
+(h / 腹立つ -98:5089
+    :ARG1 (w / 私)
+    :ARG0 (k / 彼)
+    :mod (m / まだ)
+    :concession (s / 謝罪 -95:2788
+        :ARG0(k)
+        :ARG2(w)))
 
 # ::id ja:149 ::date 7/2/2024
 # ::snt 警察はあなたに弾丸をみつけさせるでしょう。
 # ::gls The police will get you to find the bullets.
+(shi / 強いる - 478:9270
+    :ARG0 (k / 警察)
+    :ARG2 (a / あなた)
+    :ARG1 (m / 見つける -110:3004
+        :ARG0 (a)
+        :ARG1 (d / 弾丸)))
 
 # ::id ja:150 ::date 7/2/2024
 # ::snt なぜみんなが私のことを気違いだと思うのか、遂に説明してくれてありがとう。
 # ::gls Thanks for having explained to me at last why people take me for an idiot.
+(k / 感謝する - 349:4915
+    :ARG0 (w / 私)
+    :ARG2(s / 説明する - 95:2800
+        :ARG0 (a / あなた)
+        :cause (o / 思う - 101:15814
+            :ARG0 (m / みんな)
+            :ARG1 (w)
+            :ARG2 (ki / 気違い ))
+        :time (tsu / 遂)))
