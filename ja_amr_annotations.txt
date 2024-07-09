@@ -1403,3 +1403,106 @@
             :ARG1 (w)
             :ARG2 (ki / 気違い ))
         :time (tsu / 遂)))
+
+# ::id ja:151 ::date 7/5/2024
+# ::snt そんなつもりではなかった。
+# ::gls That wasn't my intention.
+(i / 意図する - 520:9745
+    :polarity -
+    :ARG0 (w / 私)
+    :ARG1(s / それ))
+
+# ::id ja:152 ::date 7/5/2024
+# ::snt 説明してくれてありがとう。
+# ::gls Thanks for your explanation.
+(k / 感謝する - 349:4915
+    :ARG0 (w / 私)
+    :ARG2(s / 説明する - 95:2800
+        :ARG0 (a / あなた)
+        :ARG2 (w)))
+
+# ::id ja:153 ::date 7/5/2024
+# ::snt 理論的には、私は数学をしている。
+# ::gls Theoretically, I'm doing math.
+(s /  する  - 251:10324
+    :ARG0 (w / 私)
+    :ARG1 (su /数学)
+    :mod (r / 論理))
+
+# ::id ja:154 ::date 7/5/2024
+# ::snt 丸一日オンラインで君を見ないなんてびっくりだよ。
+# ::gls It almost scared me not to see you online for a whole day.
+(b / びっくりする - 398:5004
+    :ARG1 (w / 私)
+    :ARG0 (m / 見る - 101:6017
+        :polarity -
+        :ARG0 (w)
+        :ARG1 (k / 君)
+        :medium (o / オンライン)
+        :duration (t / temporal quantity
+            :quant 1
+            :unit 日
+            :mod (m / 丸))))
+
+# ::id ja:155 ::date 7/5/2024
+# ::snt 何が言いたいのか分からないなあ。
+# ::gls I don't know what you mean.
+(w / 分かる  - 647:26417
+    :polarity -
+    :ARG0 (w / 私)
+    :ARG1 (h / 欲しい - 520:24546
+        :ARG0(a / あなた)
+        :ARG1 (i / 言う - 95:26778
+            :ARG0 (a)
+            :ARG4 (k / こと)))
+
+# ::id ja:156 ::date 7/5/2024
+# ::snt 何が言いたいのか分かんないんだけど。
+# ::gls I don't know what you mean.
+(w / 分かる  - 647:26417
+    :polarity -
+    :ARG0 (w / 私)
+    :ARG1 (h / 欲しい - 520:24546
+        :ARG0(a / あなた)
+        :ARG1 (i / 言う - 95:26778
+            :ARG0 (a)
+            :ARG4 (k / こと)))
+
+# ::id ja:157 ::date 7/5/2024
+# ::snt 私のパソコンは何かの役に立つはずだ。
+# ::gls My computer has got to be useful for something.
+(g / 義務付ける -478:9271
+    :ARG1 (y/　役たつ - 679:11531
+        :ARG1(p/ パソコン
+            :poss (w / 私))
+        :ARG2 (n / 何か)))
+
+# ::id ja:158 ::date 7/5/2024
+# ::snt 自由について私に話したかったの？
+# ::gls You wanted to tell me about freedom?
+(h / 欲しい　- 520:24546
+    :ARG0 (a / あなた)
+    :ARG1 (h / 話す - 95:2838
+        :ARG0(a)
+        :ARG1(j / 自由)
+        :ARG2(w/ 私))
+    :polarity (a / amr-unknown))
+
+# ::id ja:159 ::date 7/5/2024
+# ::snt ああ、凄く変だなあ・・・。
+# ::gls Uh, now it's really weird...＊
+(h / 変
+    :domain (s / それ)
+    :degree (su / 凄い))
+
+# ::id ja:160 ::date 7/5/2024
+# ::snt 学校に全てを求めることはできない。
+# ::gls One can't expect everything from schools.
+(d / 出来る - 651:11350
+    :polarity-
+    :ARG0 (a / あなた)
+    :ARG1 (m /　求める - 472:9141
+        :ARG0(a)
+        :ARG1(s / 全て)
+        :ARG2(g / 学校)))
+
