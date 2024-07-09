@@ -1506,3 +1506,109 @@
         :ARG1(s / 全て)
         :ARG2(g / 学校)))
 
+# ::id ja:161 ::date 7/9/2024
+# ::snt 分からない言葉がたくさんある。
+# ::gls There are many words that I don't understand.
+(a / 有る - 529:14267
+    :ARG0(w / 分かる  - 111:3013
+        :polarity -
+        :ARG0(w / 私)
+        :ARG1(k/ 言葉
+            :quant(t / たくさん))))
+
+# ::id ja:162 ::date 7/9/2024
+# ::snt 私よりも物知りな数学者が自分のことをはっきりと表現できていないのを見るのは心地の良いものではない。
+# ::gls I don't like it when mathematicians who know much more than I do can't express themselves explicitly.
+(y /良い - 561:26025
+    :polarity -
+    :ARG1(d/ 出来る - 651:11350
+        :polarity -
+        :ARG0(mono/者
+            :mod (s / 数学)
+            :ARG1-of(h / have-quant-91
+                :ARG1(mo/ 物知り)
+                :ARG3(o / 多い)
+                :ARG4(w/ 私)))
+        :ARG1 (h/ 表現する - 126:3539
+            :ARG1(k / こと
+                :mod(j/ 自分))
+            :mod (ha / はっきり))))
+
+# ::id ja:163 ::date 7/9/2024
+# ::snt バカな質問があるんだ。
+# ::gls I need to ask you a silly question.
+(a / 有る - 529:14267
+    :ARG0(w/私)
+    :ARG1(s / 質問
+        :mod (b / バカ)))
+
+# ::id ja:164 ::date 7/9/2024
+# ::snt こんなに明らかなことをわざわざどうやって説明したらいいのか分からない。
+# ::gls I don't know how to demonstrate it, since it's too obvious!
+(w / 分かる  - 647:26417
+    :polarity -
+    :ARG0(w/ 私)
+    :ARG1(s/ それ
+        :manner-of (s/ 説明する -95:2800
+            :ARG0(w)
+            :ARG1(s)))
+    :ARG1-of (cause-01
+        :ARG0 (h/ have-degree-91
+            :ARG1(s)
+            :ARG2(a / 明らか))))
+
+# ::id ja:165 ::date 7/9/2024
+# ::snt ウィキペディアでいつかバイアグラを検索するなんて思ってもみなかったわ。
+# ::gls I wouldn't have thought I would someday look up "Viagra" in Wikipedia.
+(o / 思う - 101:15814
+    :polarity -
+    :ARG0 (w / 私)
+    :ARG1(k/ 検索する - 451:8772
+        :ARG0(w)
+        :ARG1(b / バイアグラ)
+        :ARG2(wi / ウィキペディア)
+    :time(i / いつか)))
+
+# ::id ja:166 ::date 7/9/2024
+# ::snt 何か他の言い方はある？
+# ::gls Can it be phrased in another way?
+(aru / 有る - 529:14267
+    :ARG1(i / 言い方
+        :mod (h / 他))
+    :polarity (a / amr-unknown))
+
+# ::id ja:167 ::date 7/9/2024
+# ::snt 誰にも分からないよ。
+# ::gls No one will know.
+(w / 分かる - 647:11319
+    :polarity -
+    :ARG0 (d / 誰も)
+
+# ::id ja:168 ::date 7/9/2024
+# ::snt 答えが分かったんだ、でもあまりにすぐに分かったものだから正解であるはずがないんだ。
+# ::gls I found a solution, but I found it so fast that it can't be the right solution.
+(w / 分かる - 647:11319
+    :ARG0 (w/ 私)
+    :ARG1(k/ 答え)
+    :mod (s / すぐ)
+    :concession (ka/ 可能 - 651:16640
+        :polarity -
+        :ARG1(s/ 正解)))
+
+# ::id ja:169 ::date 7/9/2024
+# ::snt 面白そう！
+# ::gls It seems interesting to me.
+(o / 思う-268:15812
+    :ARG0 (w/ 私)
+    :ARG1(s / それ)
+    :ARG2(o/ 面白い))
+
+# ::id ja:170 ::date 7/9/2024
+# ::snt だけど、ここではそんなに簡単ではないんです。
+# ::gls Except that here, it's not so simple.
+(k / 簡単
+    :polarity -
+    :ARG1 (s/それ)
+    :location(ko/ ここ)
+    :degree(so/ そんな))
+
