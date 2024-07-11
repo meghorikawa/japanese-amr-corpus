@@ -596,7 +596,7 @@
 # ::gls Hurry up.
 (i / 急ぐ -14:291
     :mode imperative
-    :ARG0 (x / あなた))
+    :ARG0 (a / あなた))
 
 # ::id ja:68 ::date 5/02/2024
 # ::snt 早く！
@@ -610,7 +610,7 @@
 # ::gls Hurry up.
 (i / 急ぐ -14:291
     :mode imperative
-    :ARG0 (x / あなた))
+    :ARG0 (a / あなた))
 
 # ::id ja:70 ::date 5/02/2024
 # ::snt 驚くことではないね。
@@ -1612,3 +1612,87 @@
     :location(ko/ ここ)
     :degree(so/ そんな))
 
+# ::id ja:171 ::date 7/10/2024
+# ::snt 私はロウソクの灯りって好きだな。
+# ::gls I like candlelight.
+(s / 好き- 536:19353
+    :ARG0 (w / 私)
+    :ARG1 (a / 灯
+        :mod (r / 蝋燭)))
+
+# ::id ja:172 ::date 7/10/2024
+# ::snt 何て答えたの？
+# ::gls What did you answer?
+(k / 答える - 103:2955
+    :ARG0(a / あなた)
+    :ARG1(amr/ amr-unknown))
+
+# ::id ja:173 ::date 7/10/2024
+# ::snt 違うよ、新しい彼じゃない。
+# ::gls No, he's not my new boyfriend.
+(h / have-rel-role-91
+    :polarity -
+    :ARG0 (k / 彼)
+    :ARG1 (w / わたし)
+    :ARG2(k / 彼氏
+        :mod (a / 新しい)))
+
+# ::id ja:174 ::date 7/10/2024
+# ::snt 痩せる必要がないというのは残念だ。
+# ::gls It's too bad that I don't need to lose weight.
+(z / 残念 - 993:18617
+    :ARG0(w/私)
+    :ARG1(h / 必要 - 677:26858
+        :polarity -
+        :ARG0(w)
+        :ARG1(y / 痩せる -202:4786
+            :ARG1(w))))
+
+# ::id ja:175 ::date 7/10/2024
+# ::snt 授業が全然無いとでも言うの？！
+# ::gls You never have class or what?!*
+(a / 有る  - 529:14259
+    :polarity -
+    :ARG1(j/ 従業)
+    :time(i / いつも))
+
+# ::id ja:176 ::date 7/10/2024
+# ::snt 君を邪魔するくらいなら私は数独をやってるよ。
+# ::gls I will play Sudoku then instead of continuing to bother you.
+(s / する - 251:10324
+    :ARG0(w / 私)
+    :ARG1(su / 数独)
+    :ARG1-of (i / instead-of-91
+        :ARG1 (j / 邪魔する -579:10639
+            :ARG0: w
+            :ARG1(k / 君))))
+
+# ::id ja:177 ::date 7/10/2024
+# ::snt 何が問題なの？
+# ::gls Where is the problem?*
+(m / 問題
+    :ARG1(amr/ amr-unknown))
+
+# ::id ja:178 ::date 7/10/2024
+# ::snt 待つしかない。
+# ::gls I can only wait.
+(k / 可能 -651:16640
+    :ARG1 (m / 待つ - 521:9778
+        :ARG0(w/ 私)
+        :mod (d / だけ))
+
+# ::id ja:179 ::date 7/10/2024
+# ::snt そんなに驚くことじゃないよね？
+# ::gls It's not much of a surprise, is it?
+(o / 驚く - 398:5000
+    :polarity -
+    :mod (k/こと)
+    :degree(a / あまり)
+    :ARG1-of (r/ request-confirmation-91))
+
+# ::id ja:180 ::date 7/10/2024
+# ::snt 愛してる。
+# ::gls I love you.
+(a / 愛する - 535:10120
+    :ARG0(w/ 私)
+    :ARG1(a / あなた))
