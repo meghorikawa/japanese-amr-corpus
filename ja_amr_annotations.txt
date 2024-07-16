@@ -1766,3 +1766,76 @@
 (a / 愛する - 535:10120
     :ARG0(w/ 私)
     :ARG1(a / あなた))
+
+# ::id ja:191 ::date 7/14/2024
+# ::snt 大好き。
+# ::gls I love you.
+ (a / 愛する - 535:10120
+    :ARG0(w/ 私)
+    :ARG1(a / あなた))
+
+# ::id ja:192 ::date 7/14/2024
+# ::snt もう好きじゃない。
+# ::gls I don't like you anymore.
+(s / 好き - 536:19353
+    :polarity -
+    :ARG0(w / 私)
+    :ARG1(a / あなた)
+    :time (m / もう))
+
+# ::id ja:193 ::date 7/14/2024
+# ::snt 私は好奇心が強いです。
+# ::gls I am curious.
+(k / 好奇心
+    :ARG1(w / 私))
+
+# ::id ja:194 ::date 7/14/2024
+# ::snt 私は好奇心旺盛なのです。
+# ::gls I am curious.
+(k / 好奇心
+    :ARG1(w / 私))
+
+# ::id ja:195 ::date 7/14/2024
+# ::snt おめでとうございます。
+# ::gls Congratulations!
+(o / おめでたい - 561:15755
+    :mode expressive)
+
+# ::id ja:196 ::date 7/14/2024
+# ::snt おめでとう！
+# ::gls Congratulations!
+(o / おめでたい - 561:15755
+    :mode expressive)
+
+# ::id ja:197 ::date 7/14/2024
+# ::snt おめでとう
+# ::gls Congratulations!
+(o / おめでたい - 561:15755
+    :mode expressive)
+
+# ::id ja:198 ::date 7/14/2024
+# ::snt そんなに待ちたくない。
+# ::gls I don't want to wait that long.
+(h / 欲しい - 520:24546
+    :ARG0(w / 私)
+    :ARG1(m / 待つ - 521:9779
+        :polarity -
+        :ARG0　w
+        :ARG1-of (n/ 長い
+            :degree (s/ その))))
+
+# ::id ja:199 ::date 7/14/2024
+# ::snt 家に来ませんか。
+# ::gls Why don't you come visit us?
+(k/ 来る - 17:498
+    :polarity (amr / amr-unknown)
+    :ARG0 (a / あなた)
+    :ARG2(i / 家
+        :poss (w / 私)))
+
+# ::id ja:200 ::date 7/14/2024
+# ::snt でも可能性は低そうだね。
+# ::gls But the possibility seems unlikely.
+(c / contrast-01
+    :ARG2(k / 可能　- 651:16640
+        :mod (h / 低い)))
